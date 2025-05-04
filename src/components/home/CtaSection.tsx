@@ -18,10 +18,10 @@ export default function CtaSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-[#5faed2] hover:bg-[#4a9dc1] text-white">
               <Link href="/register">
-                Register Now
+                Keep Updated
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white bg-white/10  hover:bg-white hover:text-[#1d3958]">
+            <Button asChild size="lg" variant="outline" className="border-white text-white bg-white/20 hover:bg-white hover:text-[#1d3958]">
               <Link href="/contact">
                 Contact Us
               </Link>

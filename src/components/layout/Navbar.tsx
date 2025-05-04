@@ -34,11 +34,16 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Determine if we're on a page with a dark hero (like home)
+  const isDarkHeroPage = pathname === "/"
+
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
         ? "bg-white shadow-md dark:bg-gray-900 dark:shadow-gray-800" 
-        : "bg-transparent dark:bg-transparent"
+        : isDarkHeroPage 
+          ? "bg-transparent dark:bg-transparent" 
+          : "bg-gray-100 dark:bg-transparent"
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -62,7 +67,9 @@ export default function Navbar() {
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-300 ${
                     pathname === item.path
                       ? "text-primary"
-                      : "text-gray-700 hover:text-primary dark:text-gray-200 dark:hover:text-primary"
+                      : isScrolled || !isDarkHeroPage
+                        ? "text-gray-700 hover:text-primary dark:text-gray-200 dark:hover:text-primary"
+                        : "text-white hover:text-blue-200 dark:text-gray-200 dark:hover:text-primary"
                   }`}
                 >
                   {item.name}
@@ -80,7 +87,11 @@ export default function Navbar() {
               size="icon"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
-              className="ml-2"
+              className={`ml-2 ${
+                isScrolled || !isDarkHeroPage
+                  ? "text-gray-700 dark:text-gray-200" 
+                  : "text-white dark:text-gray-200"
+              }`}
             >
               {mobileMenuOpen ? (
                 <X className="h-6 w-6" />

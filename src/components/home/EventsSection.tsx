@@ -46,7 +46,7 @@ export default function EventsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">Events</h2>
           <div className="w-16 h-1 bg-blue-500 mx-auto mb-6" />
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Dive into our diverse range of events designed to engage, educate, and inspire the open-source community.
           </p>
         </div>
@@ -62,9 +62,9 @@ export default function EventsSection() {
                   </span>
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-center text-gray-900 dark:text-white">{event.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-6 text-center">{event.description}</p>
+                <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">{event.description}</p>
                 <div className="text-center">
-                  <Button asChild variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white dark:border-blue-400 dark:text-blue-400 dark:hover:bg-blue-500">
+                  <Button asChild variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white dark:border-blue-400 dark:text-blue-300 dark:hover:bg-blue-500">
                     <Link href={event.link}>
                       Learn More
                     </Link>

@@ -39,14 +39,14 @@ export default function HeroSection() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-[#5faed2] hover:bg-[#4a9dc1] dark:bg-[#7cc5e3] dark:hover:bg-[#5faed2] text-white">
                   <Link href="/register">
-                    Register Now
+                    Keep Updated
                   </Link>
                 </Button>
                 <Button 
                   asChild 
                   size="lg" 
                   variant="outline" 
-                  className="border-white text-white bg-white/10 hover:bg-white hover:text-[#1d3958]"
+                  className="border-white text-white bg-white/20 hover:bg-white hover:text-[#1d3958] dark:border-white dark:text-white dark:bg-white/20 dark:hover:text-[#0f1b2c]"
                 >
                   <Link href="/events">
                     Explore Events

@@ -12,14 +12,14 @@ export default function AboutSection() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+          <p className="text-lg text-gray-700 dark:text-gray-200 mb-8 leading-relaxed">
             The Open Source Conference (OOSC 3.0), is a premier event dedicated to fostering innovation,
             collaboration, and learning in the open-source community. This gathering brings together
             developers, enthusiasts, industry experts, and academics to explore the latest trends,
             tools, and projects in open source.
           </p>
 
-          <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+          <p className="text-lg text-gray-700 dark:text-gray-200 mb-8 leading-relaxed">
             Be a part of the vibrant open-source community this year, at IIT Kanpur. Whether you are
             a developer, student, researcher, or enthusiast, the OOSC offers something for everyone.
             Join us to learn, innovate, and contribute to the open-source movement.
@@ -35,25 +35,25 @@ export default function AboutSection() {
                   <svg className="h-6 w-6 text-blue-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">In-depth technical talks and presentations</span>
+                  <span className="text-gray-700 dark:text-gray-200">In-depth technical talks and presentations</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-blue-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Hands-on workshops on cutting-edge technologies</span>
+                  <span className="text-gray-700 dark:text-gray-200">Hands-on workshops on cutting-edge technologies</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-blue-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Hackathon with exciting challenges and prizes</span>
+                  <span className="text-gray-700 dark:text-gray-200">Hackathon with exciting challenges and prizes</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-blue-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Networking opportunities with industry leaders</span>
+                  <span className="text-gray-700 dark:text-gray-200">Networking opportunities with industry leaders</span>
                 </li>
               </ul>
             </div>
@@ -67,25 +67,25 @@ export default function AboutSection() {
                   <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Ubuntu-focused technical sessions</span>
+                  <span className="text-gray-700 dark:text-gray-200">Ubuntu-focused technical sessions</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Canonical experts and community leaders</span>
+                  <span className="text-gray-700 dark:text-gray-200">Canonical experts and community leaders</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Special workshops on Ubuntu development</span>
+                  <span className="text-gray-700 dark:text-gray-200">Special workshops on Ubuntu development</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  <span className="text-gray-700 dark:text-gray-300">Ubuntu community meetups and discussions</span>
+                  <span className="text-gray-700 dark:text-gray-200">Ubuntu community meetups and discussions</span>
                 </li>
               </ul>
             </div>

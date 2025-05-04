@@ -10,7 +10,7 @@ export default function RegisterPage() {
         <p className="text-lg mb-8">
           Registration for OOSC 3.0 & UbuCon India will open soon. Please check back later.
         </p>
-        <div className="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
+        {/* <div className="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
           <h2 className="text-xl font-semibold mb-4">Sign up for updates</h2>
           <p className="mb-6">
             Join our mailing list to receive updates about registration, speakers, and more.
@@ -31,7 +31,7 @@ export default function RegisterPage() {
               Subscribe
             </Button>
           </form>
-        </div>
+        </div> */}
       </div>
     </PageWrapper>
   );

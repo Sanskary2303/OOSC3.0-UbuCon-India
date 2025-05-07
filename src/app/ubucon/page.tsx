@@ -33,8 +33,8 @@ export default function UbuConPage() {
                 </Link>
               </Button>
               <Button asChild variant="outline" className="border-[#e95420] text-[#e95420] hover:bg-[#e95420] hover:text-white">
-                <Link href="/events">
-                  View Schedule
+                <Link href="https://events.canonical.com/event/134/abstracts/">
+                  Call for Proposals
                 </Link>
               </Button>
             </div>

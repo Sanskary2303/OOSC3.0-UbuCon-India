@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react"
+import { Facebook, Twitter, Instagram, Linkedin, Github, ExternalLink } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -60,6 +60,16 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link>
+              </li>
+              <li>
+                <a 
+                  href="https://events.canonical.com/event/134/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-gray-300 hover:text-white flex items-center"
+                >
+                  Indico Event Page <ExternalLink className="ml-1 h-3 w-3" />
+                </a>
               </li>
             </ul>
           </div>

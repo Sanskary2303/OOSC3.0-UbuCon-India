@@ -52,6 +52,15 @@ export default function HeroSection() {
                     Explore Events
                   </Link>
                 </Button>
+                <Button 
+                  asChild 
+                  size="lg" 
+                  className="bg-[#e95420] hover:bg-[#c7471b] text-white"
+                >
+                  <Link href="https://events.canonical.com/event/134/" target="_blank" rel="noopener noreferrer">
+                    Indico Page
+                  </Link>
+                </Button>
               </div>
             </motion.div>
           </div>

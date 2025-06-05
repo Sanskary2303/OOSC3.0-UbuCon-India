@@ -9,6 +9,7 @@ export default function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     subject: '',
     message: '',
   });
@@ -16,6 +17,7 @@ export default function ContactPage() {
   const [formErrors, setFormErrors] = useState({
     name: '',
     email: '',
+    phone: '',
     subject: '',
     message: '',
   });
@@ -27,7 +29,6 @@ export default function ContactPage() {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
     setFormErrors({ ...formErrors, [id]: '' });
-    // Clear submission status when user starts typing again
     if (submissionStatus) {
       setSubmissionStatus(null);
     }
@@ -37,12 +38,14 @@ export default function ContactPage() {
     setFormData({
       name: '',
       email: '',
+      phone: '',
       subject: '',
       message: '',
     });
     setFormErrors({
       name: '',
       email: '',
+      phone: '',
       subject: '',
       message: '',
     });
@@ -57,7 +60,6 @@ export default function ContactPage() {
       await submitFormToGoogleScript(formData);
       setSubmissionStatus('success');
       console.log('Form submitted successfully:', formData);
-      // Clear form on successful submission
       resetForm();
     } catch (error) {
       setSubmissionStatus('error');
@@ -157,6 +159,21 @@ export default function ContactPage() {
                   required
                 />
                 <p className="help-block text-danger">{formErrors.email}</p>
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                  Phone Number
+                </label>
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="Your Phone No."
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  value={formData.phone}
+                  onChange={handleInputChange}
+                  disabled={isSubmitting}
+                />
+                <p className="help-block text-danger">{formErrors.phone}</p>
               </div>
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">

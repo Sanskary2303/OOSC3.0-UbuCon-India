@@ -16,6 +16,7 @@ import sarthak from './images/Sarthak Patil_Fiance.jpg';
 import shreydhree from './images/ShreyaShree Events.jpg';
 import sujal from './images/Sujal jain_Marketing  (1).jpg';
 import mahir from './images/mahirj23.jpeg';
+import sidd from './images/sidd.png'
 export const teamData=[
   {
     "category": "Organisers",
@@ -83,7 +84,7 @@ export const teamData=[
     "category": "Web and App",
     "members": [
       { "name": "Mahir Jain", "phone": "+91 6290598774" ,image:mahir},
-      { "name": "Siddhant Singh", "phone": "+91 9555409072" ,image:deexith}
+      { "name": "Siddhant Singh", "phone": "+91 9555409072" ,image:sidd}
     ]
   }
 ]

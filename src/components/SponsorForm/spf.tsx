@@ -57,6 +57,15 @@ export default function SponsorForm() {
       <h2 className="text-5xl font-extrabold mb-12 text-white drop-shadow-lg text-center tracking-wide">
         Become a Sponsor
       </h2>
+      {submissionStatus === 'success' && (
+        <div className="mb-6 p-4 bg-green-100 dark:bg-green-900 border border-green-400 dark:border-green-600 text-green-700 dark:text-green-300 rounded-md">
+          <div className="flex items-center">
+            <span className="mr-2">✅</span>
+            <span className="font-medium">Details sent successfully!</span>
+          </div>
+          <p className="text-sm mt-1">Thank you for showing your interest. We'll get back to you soon.</p>
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block font-semibold mb-2 text-white" htmlFor="name">

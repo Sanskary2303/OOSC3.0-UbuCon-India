@@ -1,4 +1,4 @@
-import Tim from './images/rTill.png';
+import Till from './images/rTill.png';
 import Aveek from './images/rAveek.jpeg';
 import Abhisek from './images/abhishek kumar.jpeg';
 import adityaran from './images/Aditya Ranjan_Hospitality.jpg';
@@ -21,7 +21,7 @@ export const teamData=[
   {
     "category": "Organisers",
     "members": [
-      { "name": "Till Kamppeter", "phone": "" ,"image":Tim},
+      { "name": "Till Kamppeter", "phone": "" ,"image":Till},
       { "name": "Aveek Basu", "phone": "" ,"image":Aveek}
     ]
   },

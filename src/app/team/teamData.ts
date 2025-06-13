@@ -1,22 +1,15 @@
 import Till from './images/rTill.png';
 import Aveek from './images/rAveek.jpeg';
-import Abhisek from './images/abhishek kumar.jpeg';
-import adityaran from './images/Aditya Ranjan_Hospitality.jpg';
-import aryan from './images/Aryan Singh_Finance.jpg';
-import deexith from './images/Deexith_Design.jpg';
-import devagya from './images/Devagya Singh Vats_Hospitality.jpg';
-import nitika from './images/Nitika Singh_MnP.jpg';
-import oc from './images/oc.jpeg';
-import prathamsahu from './images/Pratham_Sahu.jpeg';
-import prathamsharma from './images/pratham sharma.jpeg';
-import mdrahbar from './images/rahbar.jpeg';
-import samhita from './images/samhita.jpg';
-import sanskar from './images/Sanskar.jpeg';
-import sarthak from './images/Sarthak Patil_Fiance.jpg';
-import shreydhree from './images/ShreyaShree Events.jpg';
-import sujal from './images/Sujal jain_Marketing  (1).jpg';
-import mahir from './images/mahirj23.jpeg';
-import sidd from './images/sidd.png'
+import Preet from './images/Preet Mehta 230789.jpg';
+import Vaishnavi from './images/vaishnavi.jpg';
+import AdityaRanjan from './images/Aditya Ranjan_.jpg';
+import VishapRaj from './images/Vishap_raj.jpg';
+import Nikunj from './images/Nikunj 220713.webp';
+import Vyom from './images/Vyom.jpg';
+import mahirjain from './images/mahir-jain.jpeg';
+import sidd from './images/siddhantsngh.jpg';
+import divyaman from './images/Front_pic.jpg';
+import himanshu from './images/himanshudugar.jpg';
 export const teamData=[
   {
     "category": "Organisers",
@@ -26,64 +19,37 @@ export const teamData=[
     ]
   },
   {
-    "category": "Overall Coordinator",
-    "members": [
-      { "name": "Pratham Sahu", "phone": "+91 7619678791",image:prathamsahu },
-      { "name": "Md Rahbar", "phone": "+91 8445979949",image:mdrahbar },
-      { "name": "Prakhar Mishra", "phone": "" ,image:oc}
-    ]
-  },
-  {
-    "category": "Events and Workshops",
-    "members": [
-      { "name": "Shreya Shree", "phone": "" ,image:shreydhree},
-      { "name": "Sanskar Yaduka", "phone": "+91 8434842395" ,image:sanskar}
-    ]
-  },
-  {
-    "category": "Finance",
-    "members": [
-      { "name": "Aryan Singh", "phone": "" ,image:aryan},
-      { "name": "Sarthak Patil", "phone": "",image:sarthak }
-    ]
-  },
-  {
     "category": "Hospitality",
     "members": [
-      { "name": "Aditya Ranjan", "phone": "" ,image:adityaran},
-      { "name": "Devagya Singh Vats", "phone": "" ,image:devagya}
+      { "name": "Aditya Ranjan", "phone": "" ,image:AdityaRanjan},
+      { "name": "Vishalp Raj", "phone": "" ,image:VishapRaj}
     ]
   },
   {
     "category": "Marketing",
     "members": [
-      { "name": "Sujal Jain", "phone": "",image:sujal },
-      { "name": "Abhishek Kumar", "phone": "" ,image:Abhisek}
+      { "name": "Nikunj Mucchal", "phone": "",image:Nikunj },
+      { "name": "Vyom Pratap Singh", "phone": "" ,image:Vyom}
     ]
   },
   {
-    "category": "Media and Publicity",
+    "category": "Media and Publicity and Design",
     "members": [
-      { "name": "Nitika Singh", "phone": "" ,image:nitika}
+      { "name": "Preet Mehta", "phone": "" ,image:Preet},
+      { "name": "Vaishnavi", "phone": "" ,image:Vaishnavi}
     ]
   },
   {
     "category": "Show Management",
     "members": [
-      { "name": "Pratham Sharma", "phone": "" ,image:prathamsharma}
-    ]
-  },
-  {
-    "category": "Design",
-    "members": [
-      { "name": "K.C. Sree Samhitha", "phone": "" ,image:samhita},
-      { "name": "Sai Deexith", "phone": "" ,image:deexith}
+      { "name": "Divyaman Pal", "phone": "+91 6388676760" ,image:divyaman},
+      { "name": "Himanshu Dugar", "phone": "+91 94602 51039" ,image:himanshu}
     ]
   },
   {
     "category": "Web and App",
     "members": [
-      { "name": "Mahir Jain", "phone": "+91 6290598774" ,image:mahir},
+      { "name": "Mahir Jain", "phone": "+91 6290598774" ,image:mahirjain},
       { "name": "Siddhant Singh", "phone": "+91 9555409072" ,image:sidd}
     ]
   }

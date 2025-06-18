@@ -114,7 +114,7 @@ export default function UbuConPage() {
           </p>
           <div className="flex justify-center">
             <Button asChild size="lg" className="bg-[#e95420] hover:bg-[#c7471b]">
-              <Link href="" target="_blank" rel="noopener noreferrer">
+              <Link href="https://events.canonical.com/event/134/program#ubucon-india" target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Visit UbuCon India 
               </Link>

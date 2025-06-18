@@ -10,7 +10,7 @@ export const speakers = [
     bio: "Linux Foundation Fellow and OpenPrinting leader, pioneered CUPS in Mandrake Linux, drove adoption across distros, and champions seamless Linux printing through Canonical, PWG, GSoC, and OSS events in India.",
     imageSrc: Till,
     social: {
-      twitter: "https://x.com/TKamppeter",
+      // twitter: "https://x.com/TKamppeter",
       linkedin: "https://www.linkedin.com/in/kamppetertill/",
       github: "https://github.com/tillkamppeter",
       website: ""

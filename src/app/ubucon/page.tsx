@@ -61,10 +61,16 @@ export default function UbuConPage() {
           <div className="flex justify-center">
             <div className="relative w-full max-w-md h-72">
               <Image
-                src="/img/logos/canonical.png"
+                src="/img/logos/ubuntu-india.png"
                 alt="Ubuntu"
                 fill
-                className="object-contain"
+                className="object-contain dark:hidden"
+              />
+              <Image
+                src="/img/logos/ubuntu-india-dark-mode.png"
+                alt="Ubuntu"
+                fill
+                className="object-contain hidden dark:block"
               />
             </div>
           </div>

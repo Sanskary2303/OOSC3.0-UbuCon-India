@@ -1,6 +1,8 @@
 'use client'
 import { Handshake, Send } from "lucide-react";
 import { useState } from "react";
+import { submitFormToGoogleScript } from "../../util/sponsor"
+
 export default function SponsorForm() {
   const [formData, setFormData] = useState({
     name: '',
@@ -9,13 +11,42 @@ export default function SponsorForm() {
     phone: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const [submissionStatus, setSubmissionStatus] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const resetForm = () => {
+    setFormData({
+      name: '',
+      company: '',
+      email: '',
+      phone: '',
+    });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { id, value } = e.target;
+    setFormData({ ...formData, [id]: value });
+    if (submissionStatus) {
+      setSubmissionStatus(null);
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Submitted Data:', formData);
+    setIsSubmitting(true);
+    setSubmissionStatus(null);
+
+    try {
+      await submitFormToGoogleScript(formData);
+      setSubmissionStatus('success');
+      console.log('Form submitted successfully:', formData);
+      resetForm();
+    } catch (error) {
+      setSubmissionStatus('error');
+      console.error('Error submitting form:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -26,6 +57,15 @@ export default function SponsorForm() {
       <h2 className="text-5xl font-extrabold mb-12 text-white drop-shadow-lg text-center tracking-wide">
         Become a Sponsor
       </h2>
+      {submissionStatus === 'success' && (
+        <div className="mb-6 p-4 bg-green-100 dark:bg-green-900 border border-green-400 dark:border-green-600 text-green-700 dark:text-green-300 rounded-md">
+          <div className="flex items-center">
+            <span className="mr-2">✅</span>
+            <span className="font-medium">Details sent successfully!</span>
+          </div>
+          <p className="text-sm mt-1">Thank you for showing your interest. We'll get back to you soon.</p>
+        </div>
+      )}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block font-semibold mb-2 text-white" htmlFor="name">
@@ -93,8 +133,9 @@ export default function SponsorForm() {
         <button
           type="submit"
           className="w-full py-4 rounded-full bg-gradient-to-r from-pink-400 via-red-500 to-yellow-400 text-white font-extrabold text-xl tracking-wider shadow-lg hover:scale-105 hover:shadow-xl transform transition duration-300 flex items-center justify-center gap-3"
+          disabled={isSubmitting}
         >
-          Submit <Send className="w-6 h-6" />
+          {isSubmitting ? 'Submitting...' : 'Submit'}
         </button>
       </form>
     </div>

@@ -9,7 +9,7 @@ interface SpeakerCardProps {
   title: string;
   organization: string;
   bio: string;
-  imageSrc: string;
+  imageSrc: any;
   social?: {
     twitter?: string;
     linkedin?: string;
@@ -57,6 +57,11 @@ export default function SpeakerCard({
 
         {/* Track badge */}
         <div className="absolute top-2 right-2">
+          {track === "oosc" && (
+            <span className="bg-[#1d3958] text-white text-xs font-bold px-2 py-1 rounded-full">
+              OOSC
+            </span>
+          )}
           {track === "ubucon" && (
             <span className="bg-[#e95420] text-white text-xs font-bold px-2 py-1 rounded-full">
               UbuCon
@@ -70,17 +75,19 @@ export default function SpeakerCard({
         </div>
       </div>
 
-      <div className="p-6">
-        <h3 className="text-xl font-bold mb-1">{name}</h3>
-        <p className="text-gray-600 mb-3">{title}{organization ? `, ${organization}` : ''}</p>
+      <div className="p-6 flex flex-col h-full">
+        <h3 className="text-xl text-black font-bold mb-5">{name}</h3>
+        <p className="text-gray-600 mb-4">{title}{organization ? `,  ${organization}` : ''}</p>
 
-        <p className="text-gray-700 mb-4 line-clamp-3">
+        <p className="text-gray-700 mb-5 md:line-clamp-5">
           {bio}
         </p>
 
+        <div className="flex-grow"></div> 
+
         {/* Social links */}
         {social && (
-          <div className="flex space-x-2 mb-4">
+          <div className="flex space-x-2 mt-auto">
             {social.twitter && (
               <a
                 href={social.twitter}
@@ -124,11 +131,11 @@ export default function SpeakerCard({
           </div>
         )}
 
-        <Button asChild variant="outline" className="w-full">
+        {/* <Button asChild variant="outline" className="w-full">
           <Link href={`/speakers/${id}`}>
             View Profile
           </Link>
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

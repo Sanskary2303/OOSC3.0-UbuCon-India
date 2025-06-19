@@ -61,10 +61,16 @@ export default function UbuConPage() {
           <div className="flex justify-center">
             <div className="relative w-full max-w-md h-72">
               <Image
-                src="/img/logos/canonical.png"
+                src="/img/logos/ubuntu-india.png"
                 alt="Ubuntu"
                 fill
-                className="object-contain"
+                className="object-contain dark:hidden"
+              />
+              <Image
+                src="/img/logos/ubuntu-india-dark-mode.png"
+                alt="Ubuntu"
+                fill
+                className="object-contain hidden dark:block"
               />
             </div>
           </div>
@@ -114,7 +120,7 @@ export default function UbuConPage() {
           </p>
           <div className="flex justify-center">
             <Button asChild size="lg" className="bg-[#e95420] hover:bg-[#c7471b]">
-              <Link href="" target="_blank" rel="noopener noreferrer">
+              <Link href="https://events.canonical.com/event/134/program#ubucon-india" target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Visit UbuCon India 
               </Link>

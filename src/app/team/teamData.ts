@@ -7,7 +7,7 @@ import VishapRaj from './images/Vishap_raj.jpg';
 import Nikunj from './images/Nikunj 220713.webp';
 import Vyom from './images/Vyom.jpg';
 import mahirjain from './images/mahir-jain.jpeg';
-import sidd from './images/siddhantsngh.jpg';
+import sidd from './images/siddhant.jpg';
 import divyaman from './images/Front_pic.jpg';
 import himanshu from './images/himanshudugar.jpg';
 import sanjay from './images/Sanjay_Khara_E&W.jpg';

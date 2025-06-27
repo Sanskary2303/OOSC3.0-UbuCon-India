@@ -1,4 +1,5 @@
 import Tim from './images/rTill.png';
+import Bhavi from './images/Bhavi.jpeg';
 import Aveek from './images/rAveek.jpeg';
 import Preet from './images/Preet Mehta 230789.jpg';
 import Vaishnavi from './images/vaishnavi.jpg';
@@ -12,19 +13,24 @@ import divyaman from './images/Front_pic.jpg';
 import himanshu from './images/himanshudugar.jpg';
 import sanjay from './images/Sanjay_Khara_E&W.jpg';
 import devansh from './images/devansh.jpg';
-import sanskar from './images/sanskar.jpeg'
+import sanskar from './images/sanskar.jpeg';
+import soumya from './images/soumyadeep.png'
 export const teamData=[
   {
     "category": "Organisers",
     "members": [
       { "name": "Till Kamppeter", "phone": "" ,"image":Tim ,"linkedin":"https://www.linkedin.com/in/kamppetertill/"},
-      { "name": "Aveek Basu", "phone": "" ,"image":Aveek,"linkedin":"https://www.linkedin.com/in/basuaveek/"}
+      { "name": "Aveek Basu", "phone": "" ,"image":Aveek,"linkedin":"https://www.linkedin.com/in/basuaveek/"},
+      { "name": "Bhavanishankar Ravindra", "phone": "", "image":Bhavi,"linkedin":"https://www.linkedin.com/in/shankarbhavani/"}
     ]
   },
   {
     "category": "Overall Coordinator",
     "members": [
-      { "name": "Sanskar Yaduka", "phone": "" ,image:sanskar,"linkedin":"https://www.linkedin.com/in/sanskar-yaduka-6aa154254/"}
+      { "name": "Sanskar Yaduka", "phone": "" ,image:sanskar,"linkedin":"https://www.linkedin.com/in/sanskar-yaduka-6aa154254/"},
+      {
+        "name": "Soumyadeep Ghosh", "phone": "",image:soumya,"linkedin":"https://www.linkedin.com/in/soumyadghosh/"
+      }
     ]
   },
   {

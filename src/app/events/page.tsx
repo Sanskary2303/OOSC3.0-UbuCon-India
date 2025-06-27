@@ -207,7 +207,7 @@ export default function EventsPage() {
           </p>
           <Button asChild className="bg-[#1d3958] hover:bg-[#152b44] dark:bg-[#2a4c76] dark:hover:bg-[#1d3958]">
             <Link href="/register">
-              Keep Updated
+              Stay Updated
             </Link>
           </Button>
         </div>

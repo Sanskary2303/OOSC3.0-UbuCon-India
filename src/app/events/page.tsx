@@ -90,7 +90,7 @@ export default function EventsPage() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Submit Your Proposal</h4>
-                <p className="text-gray-600 dark:text-gray-300">Visit our Indico page to submit your proposal for OOSC 3.0 & UbuCon India.</p>
+                <p className="text-gray-600 dark:text-gray-300">Visit our Indico page to submit your proposal for OOSC 3.0.</p>
               </div>
             </div>
             

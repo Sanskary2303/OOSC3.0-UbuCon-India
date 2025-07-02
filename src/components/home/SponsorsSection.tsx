@@ -4,13 +4,6 @@ import Link from "next/link"
 // Example sponsors
 const sponsors = [
   {
-    id: "canonical",
-    name: "Canonical",
-    logo: "/img/logos/canonical.png",
-    url: "https://canonical.com",
-    tier: "platinum"
-  },
-  {
     id: "linux-foundation",
     name: "The Linux Foundation",
     logo: "/img/logos/linux-foundation.png",

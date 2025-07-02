@@ -9,7 +9,7 @@ export default function RegisterPage() {
       <div className="container mx-auto px-6 py-24 pt-32 md:pt-40">
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Stay Updated</h1>
         <p className="text-lg mb-8">
-          Registration for OOSC 3.0 & UbuCon India will open soon. You can also visit our Indico event page to keep updated about the conference.
+          Registration for OOSC 3.0 will open soon. You can also visit our Indico event page to keep updated about the conference.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">

@@ -22,7 +22,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-gray-300 mb-4">
-              Opportunity Open-Source Conference (OOSC) 3.0 & UbuCon India is a premier event dedicated to fostering innovation, collaboration, and learning in the open-source community.
+              Opportunity Open-Source Conference (OOSC) 3.0 is a premier event dedicated to fostering innovation, collaboration, and learning in the open-source community.
             </p>
             {/* <div className="flex space-x-4">
               <Link href="#" className="text-gray-300 hover:text-white">
@@ -95,7 +95,7 @@ export default function Footer() {
 
         {/* <div className="border-t border-gray-700 mt-8 pt-8 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-300">
-            &copy; {currentYear} OOSC 3.0 & UbuCon India. All rights reserved.
+            &copy; {currentYear} OOSC 3.0. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <Link href="/privacy-policy" className="text-gray-300 hover:text-white mr-4">

@@ -76,7 +76,7 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <p className="text-lg mb-8 dark:text-gray-300">
-              Have questions or need more information about OOSC 3.0 & UbuCon India?
+              Have questions or need more information about OOSC 3.0 ?
               Fill out the form and we'll get back to you as soon as possible.
             </p>
             <div className="space-y-4 mb-8">

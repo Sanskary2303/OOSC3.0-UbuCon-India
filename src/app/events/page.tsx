@@ -19,20 +19,6 @@ const tracks = [
     textColor: "text-blue-500 dark:text-blue-300"
   },
   {
-    id: "ubucon-tech",
-    name: "UbuCon: Technical",
-    description: "Technical talks and demos focused on Ubuntu, including development, deployment, and best practices.",
-    color: "bg-[#e95420]",
-    textColor: "text-[#e95420] dark:text-[#ff7a4d]"
-  },
-  {
-    id: "ubucon-community",
-    name: "UbuCon: Community",
-    description: "Ubuntu community discussions, LoCo team activities, and Ubuntu advocacy.",
-    color: "bg-[#ff7a4d]",
-    textColor: "text-[#e95420] dark:text-[#ff7a4d]"
-  },
-  {
     id: "workshop",
     name: "Workshops",
     description: "Interactive hands-on sessions for practical skill development across OOSC and UbuCon topics.",
@@ -48,7 +34,7 @@ export default function EventsPage() {
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">Conference Program</h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Join us at OOSC 3.0 & UbuCon India to explore the latest in open source and Ubuntu
+            Join us at OOSC 3.0 to explore the latest in open source and Ubuntu
             through our diverse program tracks, September 5-7, 2025.
           </p>
         </div>
@@ -104,7 +90,7 @@ export default function EventsPage() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Submit Your Proposal</h4>
-                <p className="text-gray-600 dark:text-gray-300">Visit our Indico page to submit your proposal for OOSC 3.0 & UbuCon India.</p>
+                <p className="text-gray-600 dark:text-gray-300">Visit our Indico page to submit your proposal for OOSC 3.0.</p>
               </div>
             </div>
             
@@ -162,36 +148,6 @@ export default function EventsPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-600 dark:text-gray-300">Community building workshops</span>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-t-4 border-[#e95420]">
-              <h3 className="text-xl font-bold mb-4 text-[#e95420] dark:text-[#ff7a4d]">
-                UbuCon India
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                UbuCon India focuses on Ubuntu and its ecosystem, bringing together Ubuntu users, developers, and 
-                community members for knowledge sharing and collaboration.
-              </p>
-              <ul className="space-y-2 mb-4">
-                <li className="flex items-start">
-                  <svg className="h-5 w-5 text-[#e95420] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-600 dark:text-gray-300">Ubuntu technical sessions</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-5 w-5 text-[#e95420] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-600 dark:text-gray-300">Community-led workshops</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-5 w-5 text-[#e95420] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-600 dark:text-gray-300">Ubuntu ecosystem discussions</span>
                 </li>
               </ul>
             </div>

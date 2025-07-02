@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OOSC 3.0 & UbuCon India",
-  description: "Opportunity Open-Source Conference 3.0 & UbuCon India - Fostering innovation, collaboration, and learning in the open-source community",
+  title: "OOSC 3.0",
+  description: "Opportunity Open-Source Conference 3.0 - Fostering innovation, collaboration, and learning in the open-source community",
 };
 
 export default function RootLayout({

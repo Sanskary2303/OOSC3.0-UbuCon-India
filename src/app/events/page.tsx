@@ -21,7 +21,7 @@ const tracks = [
   {
     id: "workshop",
     name: "Workshops",
-    description: "Interactive hands-on sessions for practical skill development across OOSC and UbuCon topics.",
+    description: "Interactive hands-on sessions for practical skill development across OOSC topics.",
     color: "bg-purple-500",
     textColor: "text-purple-600 dark:text-purple-400"
   }
@@ -34,7 +34,7 @@ export default function EventsPage() {
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">Conference Program</h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Join us at OOSC 3.0 to explore the latest in open source and Ubuntu
+            Join us at OOSC 3.0 to explore the latest in open source
             through our diverse program tracks, September 5-7, 2025.
           </p>
         </div>
@@ -77,7 +77,7 @@ export default function EventsPage() {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-12">
           <h2 className="text-2xl font-bold mb-4">Call for Proposals</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            We invite speakers from across the open source and Ubuntu communities to submit proposals for talks, 
+            We invite speakers from across the open source communities to submit proposals for talks, 
             workshops, and panel discussions. Share your expertise, projects, and experiences with our audience.
           </p>
           
@@ -103,7 +103,7 @@ export default function EventsPage() {
               <div>
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-white">Important Dates</h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  <strong>Submission Deadline:</strong> June 16, 2025<br />
+                  <strong>Submission Deadline:</strong> July 16, 2025<br />
                   {/* <strong>Notification of Acceptance:</strong> July 15, 2025<br />
                   <strong>Final Program Announcement:</strong> August 1, 2025 */}
                 </p>
@@ -120,7 +120,7 @@ export default function EventsPage() {
 
         {/* OOSC & UbuCon Dual-Track Structure */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6">Dual-Track Conference</h2>
+          <h2 className="text-2xl font-bold mb-6">Conference Program</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-t-4 border-blue-500">
               <h3 className="text-xl font-bold mb-4 text-blue-600 dark:text-blue-400">

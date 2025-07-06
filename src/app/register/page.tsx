@@ -29,7 +29,7 @@ export default function RegisterPage() {
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-md border-t-4 border-[#e95420]">
             <h2 className="text-xl font-semibold mb-4 dark:text-white">Submit a Proposal</h2>
             <p className="mb-6 dark:text-gray-300">
-              Interested in speaking at OOSC 3.0 & UbuCon India? Submit your talk or workshop proposal through our Call for Abstract on Indico.
+              Interested in speaking at OOSC 3.0 ? Submit your talk or workshop proposal through our Call for Abstract on Indico.
             </p>
             <Button asChild className="w-full bg-[#e95420] hover:bg-[#c7471b]">
               <Link href="https://events.canonical.com/event/134/abstracts/" target="_blank" rel="noopener noreferrer">

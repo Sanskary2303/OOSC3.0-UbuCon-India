@@ -2,7 +2,7 @@ export { submitFormToGoogleScript };
 
 async function submitFormToGoogleScript(formData) {
   try {
-    const targetUrl = '';
+    const targetUrl = 'https://script.google.com/macros/s/AKfycbxVlv_h1RTExEKLjepKMNmARc9SpHrxqmhADnzr00bhMwGnEMSsC3f7pDiiiIXtcCs2/exec';
     
     console.log('Submitting form via direct POST (no-cors mode)...');
     

@@ -17,6 +17,7 @@ const navItems = [
   { name: "Calendar", path: "/calendar" },
   { name: "Team", path: "/team" },
   { name: "Merchandise", path: "/merchandise" },
+  { name: "CA Portal", path: "/ca"},
   { name: "Register", path: "/register" },
   { name: "Contact", path: "/contact" },
 ]

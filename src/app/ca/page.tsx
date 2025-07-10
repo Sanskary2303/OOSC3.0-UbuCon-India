@@ -86,7 +86,7 @@ export default function caPage() {
       </section>
 
       {/* About Section */}
-      <section className="py-10 px-6 max-w-4xl mx-auto text-center">
+      <section className="py-3 px-6 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
           Why Become a Campus Ambassador?
         </h2>

@@ -92,8 +92,8 @@ export const speakers = [
   {
     id: "such",
     name: "Suman Chakraborty",
-    title: "Recipient of Infosys Prize, National Award for Teachers, Bhatnagar Prize Fellow of APS (USA), ASME (USA), RSC (UK), Professor IIT Kharagpur",
-    organization: "Deep computing",
+    title: "Recipient of Infosys Prize, National Award for Teachers, Bhatnagar Prize Fellow of APS (USA), ASME (USA), RSC (UK), Professor",
+    organization: "IIT Kharagpur",
     imageSrc: such,
     social: {
       twitter: "https://x.com/TKamppeter",
@@ -198,8 +198,8 @@ export const speakers = [
   {
     id: "alpe",
     name: "Alexander Pevzner",
-    title: "OpenPrinting",
-    organization: "United States Securities and Exchange Commission",
+    title: "Project mentor, Author of the ipp-usb and sane-airscan",
+    organization: "GSOC",
     imageSrc: alpe,
     social: {
       twitter: "",

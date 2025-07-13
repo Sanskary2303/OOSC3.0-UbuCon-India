@@ -57,18 +57,24 @@ export default function SponsorshipSlabs() {
   return (
     <PageWrapper>
       <div className="px-4 sm:px-8 lg:px-16 py-16">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 tracking-tight text-neutral-900 dark:text-neutral-100">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-5 tracking-tight text-neutral-900 dark:text-neutral-100">
           Sponsorship Slabs
         </h2>
+        <div className="text-center mb-6">
+          <a href="https://drive.google.com/uc?export=download&id=1oy3cB3bTQbsb2a-Lx4rukKbsqZ5zup3L"
+            download="Prospectus_OOSC_2025.pdf"
+            className="bg-indigo-500 text-white px-4 py-1.5 rounded hover:bg-indigo-800">
+            📄 Download Prospectus
+          </a>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {slabs.map((slab, idx) => (
             <div
               key={idx}
-              className={`rounded-2xl p-6 sm:p-8 text-center border transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 ${
-                slab.highlight
-                  ? "border-yellow-400 dark:border-yellow-500"
-                  : "border-neutral-300 dark:border-neutral-700"
-              }`}
+              className={`rounded-2xl p-6 sm:p-8 text-center border transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-1 ${slab.highlight
+                ? "border-yellow-400 dark:border-yellow-500"
+                : "border-neutral-300 dark:border-neutral-700"
+                }`}
             >
               <div className="flex justify-center mb-4">{slab.icon}</div>
               <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-neutral-800 dark:text-neutral-100">

@@ -198,7 +198,7 @@ export const speakers = [
   {
     id: "alpe",
     name: "Alexander Pevzner",
-    title: "Project mentor",
+    title: "Project mentor, Author of the ipp-usb and sane-airscan",
     organization: "GSOC",
     imageSrc: alpe,
     social: {

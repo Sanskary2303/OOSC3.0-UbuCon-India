@@ -92,7 +92,7 @@ export const speakers = [
   {
     id: "such",
     name: "Suman Chakraborty",
-    title: "Founder & CEO",
+    title: "Recipient of Infosys Prize, National Award for Teachers, Bhatnagar Prize Fellow of APS (USA), ASME (USA), RSC (UK), Professor IIT Kharagpur",
     organization: "Deep computing",
     imageSrc: such,
     social: {
@@ -108,8 +108,8 @@ export const speakers = [
   {
     id: "suka",
     name: "Sumanto Kar",
-    title: "Founder & CEO",
-    organization: "Deep computing",
+    title: "Assistant Project Manager, FOSSEE | M. Tech. IEOR",
+    organization: "IIT Bombay",
     imageSrc: suka,
     social: {
       twitter: "https://x.com/TKamppeter",
@@ -198,13 +198,13 @@ export const speakers = [
   {
     id: "alpe",
     name: "Alexander Pevzner",
-    title: "Securities Compliance Examiner",
+    title: "OpenPrinting",
     organization: "United States Securities and Exchange Commission",
     imageSrc: alpe,
     social: {
       twitter: "",
-      linkedin: "https://www.linkedin.com/in/alexander-pevzner-mba-cfe-6617933a/",
-      github: "",
+      linkedin: "https://www.linkedin.com/in/alexander-pevzner-6046161/",
+      github: "https://github.com/alexpevzner",
       website: "",
     },
     featured: true,

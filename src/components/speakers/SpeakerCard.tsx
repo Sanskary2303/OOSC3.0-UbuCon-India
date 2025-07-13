@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Github, Linkedin, Globe, Twitter } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 interface SpeakerCardProps {
   id: string;
@@ -29,113 +27,70 @@ export default function SpeakerCard({
   imageSrc,
   social,
   featured = false,
-  track = "oosc"
+  track = "oosc",
 }: SpeakerCardProps) {
-  // Determine border color based on track
-  const trackColor = track === "ubucon"
-    ? "border-[#e95420]"
-    : track === "both"
-      ? "border-purple-500"
-      : "border-[#1d3958]";
+  const trackColors = {
+    oosc: "from-[#1d3958] to-[#27496d]",
+    ubucon: "from-[#e95420] to-[#ff7235]",
+    both: "from-purple-600 to-purple-400",
+  };
 
-  // Feature style
-  const featureStyle = featured
-    ? "md:col-span-2 md:grid md:grid-cols-2 md:gap-6"
-    : "";
+  const badgeColor = trackColors[track];
 
   return (
-    <div className={`bg-white rounded-lg shadow-md overflow-hidden border-t-4 ${trackColor} ${featureStyle}`}>
+    <div className="bg-{themeProvider.theme === 'dark' ? 'white' : 'black'} rounded-xl overflow-hidden shadow-md border transition-all duration-300 hover:scale-[1.02] hover:shadow-lg">
       <div className="relative">
-        <div className="aspect-square relative overflow-hidden">
-          <Image
-            src={imageSrc}
-            alt={name}
-            fill
-            className="object-cover"
-          />
-        </div>
-
-        {/* Track badge */}
-        <div className="absolute top-2 right-2">
-          {track === "oosc" && (
-            <span className="bg-[#1d3958] text-white text-xs font-bold px-2 py-1 rounded-full">
-              OOSC
-            </span>
-          )}
-          {track === "ubucon" && (
-            <span className="bg-[#e95420] text-white text-xs font-bold px-2 py-1 rounded-full">
-              UbuCon
-            </span>
-          )}
-          {track === "both" && (
-            <span className="bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-              OOSC + UbuCon
-            </span>
-          )}
-        </div>
+        <Image
+          src={imageSrc}
+          alt={name}
+          className="w-full h-64 object-cover"
+        />
       </div>
 
-      <div className="p-6 flex flex-col h-full">
-        <h3 className="text-xl text-black font-bold mb-5">{name}</h3>
-        <p className="text-gray-600 mb-4">{title}{organization ? `,  ${organization}` : ''}</p>
-
-        <p className="text-gray-700 mb-5 md:line-clamp-5">
-          {bio}
+      <div className="p-5 flex flex-col h-full">
+        <h3 className="text-lg w-full text-center font-bold text-{themeProvider.theme === 'dark' ? 'white' : 'black'} mb-1">
+          {name}
+        </h3>
+        <p className="text-sm  w-full text-center  text-{themeProvider.theme === 'dark' ? 'white' : 'black'} mb-3">
+          {title}
+          {organization ? `, ${organization}` : ""}
         </p>
 
-        <div className="flex-grow"></div> 
-
-        {/* Social links */}
-        {social && (
-          <div className="flex space-x-2 mt-auto">
-            {social.twitter && (
-              <a
-                href={social.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-500"
-              >
-                <Twitter size={18} />
-              </a>
-            )}
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-700"
-              >
-                <Linkedin size={18} />
-              </a>
-            )}
-            {social.github && (
-              <a
-                href={social.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-900"
-              >
-                <Github size={18} />
-              </a>
-            )}
-            {social.website && (
-              <a
-                href={social.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-green-600"
-              >
-                <Globe size={18} />
-              </a>
-            )}
-          </div>
-        )}
-
-        {/* <Button asChild variant="outline" className="w-full">
-          <Link href={`/speakers/${id}`}>
-            View Profile
-          </Link>
-        </Button> */}
+        {/* Social Links */}
+        <div className="flex space-x-4  w-full justify-center ">
+          {social?.twitter && (
+            <a href={social.twitter} target="_blank" rel="noopener noreferrer">
+              <Twitter
+                className="text-{themeProvider.theme === 'dark' ? 'white' : 'black'} hover:text-blue-800"
+                size={20}
+              />
+            </a>
+          )}
+          {social?.linkedin && (
+            <a href={social.linkedin} target="_blank" rel="noopener noreferrer">
+              <Linkedin
+                className="text-{themeProvider.theme === 'dark' ? 'white' : 'black'} hover:text-blue-800"
+                size={20}
+              />
+            </a>
+          )}
+          {social?.github && (
+            <a href={social.github} target="_blank" rel="noopener noreferrer">
+              <Github
+                className="text-{themeProvider.theme === 'dark' ? 'white' : 'black'} hover:text-blue-800"
+                size={20}
+              />
+            </a>
+          )}
+          {social?.website && (
+            <a href={social.website} target="_blank" rel="noopener noreferrer">
+              <Globe
+                className="text-{themeProvider.theme === 'dark' ? 'white' : 'black'} hover:text-blue-800"
+                size={20}
+              />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

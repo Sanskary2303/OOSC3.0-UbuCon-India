@@ -25,7 +25,7 @@ export default function AboutSection() {
             Join us to learn, innovate, and contribute to the open-source movement.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div className="flex justify-center">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-[#1d3958] dark:text-[#5faed2]">
                 OOSC 3.0

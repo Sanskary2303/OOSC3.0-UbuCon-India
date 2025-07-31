@@ -1,3 +1,5 @@
+import avbs from "./images/rAveek.jpeg";
+import till from "./images/rTill.png";
 import Till from "./images/Yuning_Liang.png";
 import bhra from "./images/Bhavanishankar.png";
 import maha from "./images/Manuel Haro.jpg";
@@ -14,6 +16,32 @@ import alpe from "./images/Alexender.jpeg";
 import olvo from "./images/Oliver Volckers.jpg";
 
 export const speakers = [
+  {
+    id: "till",
+    name: "TILL KAMPPETER",
+    title: "Leader OpenPrinting, Linux Foundation Fellow",
+    organization: "",
+    imageSrc: till,
+    social: {
+      linkedin: "https://www.linkedin.com/in/kamppetertill/?originalSubdomain=at",
+      github: "https://github.com/tillkamppeter",
+      website: "",
+    },
+    featured: true,
+    track: "oosc",
+  },{
+    id: "avbs",
+    name: "AVEEK BASU",
+    title: "Org Admin - The Linux Foundation GSoC projects Community & Program Manager OpenPrinting, Zephyr Ambassador",
+    organization: "",
+    imageSrc: avbs,
+    social: {
+      linkedin: "https://www.linkedin.com/in/basuaveek/",
+      github: "https://github.com/AveekBasu",
+    },
+    featured: true,
+    track: "oosc",
+  },
   {
     id: "yuli",
     name: "Yuning Liang",
@@ -96,10 +124,10 @@ export const speakers = [
     organization: "IIT Kharagpur",
     imageSrc: such,
     social: {
-      twitter: "https://x.com/TKamppeter",
+      twitter: "",
       linkedin:
         "https://www.linkedin.com/in/suman-chakraborty-415ab3236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNHBXSPFQvatvRWI5fk2cQ%3D%3D",
-      github: "https://github.com/tillkamppeter",
+      github: "",
       website: "https://sites.google.com/site/sumanchakrabortymicrofluidics/",
     },
     featured: true,
@@ -112,7 +140,7 @@ export const speakers = [
     organization: "IIT Bombay",
     imageSrc: suka,
     social: {
-      twitter: "https://x.com/TKamppeter",
+      twitter: "",
       linkedin: "https://www.linkedin.com/in/kamppetertill/",
       github: "https://github.com/tillkamppeter",
       website: "",

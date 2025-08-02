@@ -48,7 +48,7 @@ export default function SponsorsSection() {
         {/* Platinum Sponsors */}
         <div className="mb-16">
           <h3 className="text-xl font-semibold text-center mb-8 text-gray-700 dark:text-gray-300">Platinum Partners</h3>
-          <div className="flex justify-center">
+          <div className="flex flex-col md:flex-row gap-6 justify-center">
             {sponsors
               .filter(sponsor => sponsor.tier === "platinum")
               .map(sponsor => (

@@ -25,7 +25,7 @@ export default function AboutSection() {
             Join us to learn, innovate, and contribute to the open-source movement.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div className="flex justify-center">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-4 text-[#1d3958] dark:text-[#5faed2]">
                 OOSC 3.0
@@ -54,38 +54,6 @@ export default function AboutSection() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span className="text-gray-700 dark:text-gray-200">Networking opportunities with industry leaders</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-4 text-[#e95420]">
-                UbuCon India
-              </h3>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-700 dark:text-gray-200">Ubuntu-focused technical sessions</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-700 dark:text-gray-200">Ubuntu experts and community leaders</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-700 dark:text-gray-200">Special workshops on Ubuntu development</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span className="text-gray-700 dark:text-gray-200">Ubuntu community meetups and discussions</span>
                 </li>
               </ul>
             </div>

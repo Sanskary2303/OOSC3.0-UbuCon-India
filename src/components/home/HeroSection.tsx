@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Background particle effect */}
       <div className="absolute inset-0 bg-[url('/img/hero-section.png')] bg-cover opacity-20" />
 
-      <div className="container mx-auto px-6 py-24 pt-32 md:pt-40 relative z-10">
+      <div className="container mx-auto py-24 pt-32 md:pt-40 relative z-10 pl-45">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <motion.h1
@@ -62,48 +62,6 @@ export default function HeroSection() {
                   </Link>
                 </Button>
               </div>
-            </motion.div>
-          </div>
-
-          <div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.6 }}
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20"
-            >
-              <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                <span className="text-[#e95420]">UbuCon India</span> Co-Located
-              </h2>
-              <p className="mb-6">
-                This year, OOSC 3.0 will be co-located with UbuCon India, the premier Ubuntu-focused
-                event bringing together the Ubuntu community, developers, and enthusiasts.
-              </p>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>Ubuntu workshops and presentations</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>Connect with Ubuntu Community Members</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-[#e95420] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>Special Ubuntu community events</span>
-                </li>
-              </ul>
-              <Button asChild size="lg" className="bg-[#e95420] hover:bg-[#c7471b] text-white">
-                <Link href="/ubucon">
-                  UbuCon Details
-                </Link>
-              </Button>
             </motion.div>
           </div>
         </div>

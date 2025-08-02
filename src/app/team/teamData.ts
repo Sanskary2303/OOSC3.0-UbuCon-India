@@ -42,7 +42,7 @@ export const teamData=[
   {
     "category": "Marketing",
     "members": [
-      { "name": "Nikunj Mucchal", "phone": "",image:Nikunj,"linkedin":"https://www.linkedin.com/in/nikunjm1703/" },
+      { "name": "Nikunj Muchhal", "phone": "",image:Nikunj,"linkedin":"https://www.linkedin.com/in/nikunjm1703/" },
       { "name": "Vyom Pratap Singh", "phone": "" ,image:Vyom,"linkedin":"https://www.linkedin.com/in/vyomps/"}
     ]
   },

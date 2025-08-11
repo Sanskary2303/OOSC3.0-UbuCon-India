@@ -14,29 +14,15 @@ const events = [
     icon: "fa-users",
     title: "Workshops",
     description: "Hands-on workshops designed to deepen your skills and knowledge in specific areas, led by experienced instructors in interactive sessions.",
-    link: "/events/workshops"
+    link: "/events"
   },
   {
     id: "hackathon",
     icon: "fa-trophy",
     title: "Hackathon",
     description: "Join our hackathon and showcase your coding prowess. Compete with fellow developers to solve real-world challenges and win exciting prizes.",
-    link: "/events/hackathon"
-  },
-  {
-    id: "networking",
-    icon: "fa-cutlery",
-    title: "Networking Dinner",
-    description: "Connect with like-minded professionals and speakers over a delightful networking dinner, fostering collaboration and new opportunities.",
-    link: "/events/networking"
-  },
-  {
-    id: "closing",
-    icon: "fa-flag-checkered",
-    title: "Closing Ceremony",
-    description: "Celebrate the successful conclusion of our event with the closing ceremony. Recognize outstanding contributions, reflect on key learnings, and enjoy a memorable wrap-up.",
-    link: "/events/closing"
-  },
+    link: "/hackathon"
+  }
 ]
 
 export default function EventsSection() {

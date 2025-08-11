@@ -7,7 +7,7 @@ const events = [
     icon: "fa-graduation-cap",
     title: "Talks",
     description: "Explore insightful talks by industry leaders and experts, covering a wide range of topics from cutting-edge technologies to career development.",
-    link: "/events/talks"
+    link: "/speakers"
   },
   {
     id: "workshops",

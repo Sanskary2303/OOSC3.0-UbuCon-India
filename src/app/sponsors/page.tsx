@@ -85,7 +85,7 @@ export default function SponsorshipSlabs() {
           ))}
         </div>
         <div className="text-center mt-6">
-          <a href="https://drive.google.com/uc?export=download&id=1oy3cB3bTQbsb2a-Lx4rukKbsqZ5zup3L"
+          <a href="https://drive.usercontent.google.com/u/0/uc?id=1bAzgVJR_nxwR328VenX8zbKybRuO4Kgv&export=download"
             download="Prospectus_OOSC_2025.pdf"
             className="bg-indigo-500 text-white px-4 py-1.5 rounded hover:bg-indigo-800">
             📄 Download Prospectus

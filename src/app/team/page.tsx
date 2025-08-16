@@ -64,6 +64,16 @@ export default function TeamPage() {
                           </a>
                         )}
                       </div>
+                      {member.phone && member.phone.trim() !== "" && (
+                        <div className="mt-2 text-gray-700 dark:text-gray-300 text-sm">
+                          Phone : {member.phone}
+                        </div>
+                      )}
+                      {member.email && member.email.trim() !== "" && (
+                        <div className="mt-2 text-gray-700 dark:text-gray-300 text-sm">
+                          Email : {member.email}
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}

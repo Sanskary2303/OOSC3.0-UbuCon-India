@@ -1,8 +1,10 @@
+import Image from "next/image";
 import PageWrapper from "@/components/layout/PageWrapper";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-
+import p1 from "../img/payment1.png";
+import p2 from "../img/payment2.png";
 export default function RegisterPage() {
   return (
     <PageWrapper>
@@ -67,7 +69,38 @@ export default function RegisterPage() {
             </Button>
           </form>
         </div>
-        
+        <div className="text-center mt-6">
+          <a href="https://drive.usercontent.google.com/u/0/uc?id=1jakGCTS1GyuoFUBUV3ugdlw6Z1TqMHF9&export=download"
+            download="Prospectus_OOSC_2025.pdf"
+            className="bg-indigo-500 text-white px-4 py-1.5 rounded hover:bg-indigo-800">
+            📄 Download Brochure
+          </a>
+        </div>
+        <div className="text-center mt-12">
+          <p className="text-gray-600 dark:text-gray-400 mb-4">Payment Instructions</p>
+          <div className="mx-auto max-w-3xl space-y-6">
+  <Image
+    src={p1}
+    alt="First image description"
+    className="w-full rounded-2xl shadow-lg object-cover"
+  />
+  <p>Enter your details and follow the instructions to complete the payment.</p>
+  <Image
+    src={p2}
+    alt="Second image description"
+    className="w-full rounded-2xl shadow-lg object-cover"
+  />
+  <p>Save the receipt for future reference.</p>
+</div>
+        </div>
+        <div className="text-center mt-6">
+          <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=314456"
+            download="Prospectus_OOSC_2025.pdf"
+            target="_blank"
+            className="bg-indigo-500 text-white px-4 py-1.5 rounded hover:bg-indigo-800">
+             Make Payment
+          </a>
+        </div>
         <div className="text-center mt-12">
           <p className="text-gray-600 dark:text-gray-400 mb-4">Need help with registration or have questions?</p>
           <Button asChild variant="outline">

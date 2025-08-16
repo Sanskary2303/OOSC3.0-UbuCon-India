@@ -14,6 +14,26 @@ import utbh from "./images/utkarshbhatt.png";
 import khve from "./images/Khoosboo_verma.jpeg";
 import alpe from "./images/Alexender.jpeg";
 import olvo from "./images/Oliver Volckers.jpg";
+import haji from './images/Hardik_Jindal.jpeg';
+import jata from './images/Jayanth_Tatineni.jpeg';
+import vapa from './images/Varad_Patil.jpeg';
+import shpr from './images/Shanthi_Priya.jpeg';
+import kamo from './images/Kannan_Moudgalya.jpeg';
+import siba from './images/Siddharth_Bhat.jpeg';
+import adbh from './images/aditya_bhattacharya.jpeg';
+import ruma from './images/rudra_mani_uppadhyay.jpeg';
+import myth from './images/myo_thinzar.jpeg';
+import dide from './images/diptangshu_dey.jpeg';
+import sasu from './images/sagar_sundaray.png';
+import swpa from './images/swaraj_pande.jpeg';
+import prku from './images/prajwal_kumar.jpeg';
+import shse from './images/shaun_sebastian.jpeg';
+import disr from './images/divy_srivastava.jpeg';
+import jiyu from './images/Jiongchi_yu.jpeg';
+import akka from './images/akarshan_kapoor.jpeg';
+import laba from './images/Lakshay_Bandlish.jpeg';
+import mino from './images/mikhail_novoselov.jpeg';
+import aisi from './images/Aishvarya_sinha.jpeg';
 
 export const speakers = [
   {
@@ -249,6 +269,264 @@ export const speakers = [
       linkedin: "https://www.linkedin.com/in/oliver-voelckers/",
       github: "",
       website: "",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "haji",
+    name: "Hardik Jindal",
+    title: "OS Reaearch Fellow, Manifold Research || GSoC'24@C2SI || Coordinator@Programming Club IITK || EE'26@IITK",
+    organization: "",
+    imageSrc: haji,
+    social: {
+      linkedin: "https://www.linkedin.com/in/hardik-jindal-1a2176250/?originalSubdomain=in",
+      github: "https://github.com/hardik1408/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "jata",
+    name: "Jayanth Tatineni",
+    title: "Developer with a Security Mindset | Final Year BTech Cybersecurity Student @ GITAM | Ex-Intern @ FOSSEE, IIT Bombay",
+    organization: "",
+    imageSrc: jata,
+    social: {
+      linkedin: "https://www.linkedin.com/in/jayanth-tatineni/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+   {
+    id: "vapa",
+    name: "Varad Patil",
+    title: "IITB Employee - FOSSEE - PRA - eSim | ISRO Research Trainee | Video Editor at Contour Education, Australia | President of EESA at SGGSIE&T | B.Tech in Electrical Engineering | Leading Robotics Innovation",
+    organization: "",
+    imageSrc: vapa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/patilvarad/?originalSubdomain=in",
+      github:"https://github.com/OfficialVarad"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "shpr",
+    name: "Shanthi Priya",
+    title: "Project Research Assistant @FOSSEE IIT Bombay | ECE '25 | VLSI Design Enthusiast | Electronics",
+    organization: "",
+    imageSrc: shpr,
+    social: {
+      linkedin: "https://www.linkedin.com/in/shanthi-priya20/?originalSubdomain=in",
+      github: "https://github.com/Shanthipriya20"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "kamo",
+    name: "Kannan Moudgalya",
+    title: "Emeretius Fellow, Indian Institute of Technology, Bombay, FOSSEE Project (Indian Institute of Technology, Bombay)",
+    organization: "",
+    imageSrc: kamo,
+    social: {
+      linkedin: "https://www.linkedin.com/in/kannan-moudgalya-4998a546/?originalSubdomain=in",
+      github: "https://github.com/kannan-moudgalya"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "siba",
+    name: "Siddharth Bhat",
+    title: "PhD Student at Cambridge University",
+    organization: "",
+    imageSrc: siba,
+    social: {
+      linkedin: "https://www.linkedin.com/in/siddharth-bhat-388b60104/?originalSubdomain=uk",
+      github: "https://github.com/Sidhub723"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "adbh",
+    name: "Aditya Bhattacharya",
+    title: "LFX'25 @LFDT | SDE Intern @FOSSEE, IIT Bombay | Amazon MLSS'25 | SIH'24 Finalist | Top 95 Asia-Pacific Google AI Hackathon | SWE Fellow @Keploy & @Headstarter AI | CS Head IEEE-RGIPT | Technical Researcher | RGIPT'27",
+    organization: "",
+    imageSrc: adbh,
+    social: {
+      linkedin: "https://www.linkedin.com/in/aditya-bhattacharya-b2776a29b/?originalSubdomain=in",
+      github: "https://github.com/ADITYA-BHATTACHARYA-DEV/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "ruma",
+    name: "Rudra Mani Upadhyay",
+    title: "Attending Dronacharya College of Engineering | Cse(AI-ML)",
+    organization: "",
+    imageSrc: ruma,
+    social: {
+      linkedin: "https://www.linkedin.com/in/rudra-mani-upadhyay-47832b289/?originalSubdomain=in",
+      github: "https://github.com/Rudramani1"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "myth",
+    name: "Myo Thinzar Kyaw",
+    title: "Junior Data Analyst",
+    organization: "",
+    imageSrc: myth,
+    social: {
+      linkedin: "https://www.linkedin.com/in/myo-thinzar-kyaw-4181781a7/?originalSubdomain=mm",
+      github: "https://github.com/Myo-Thinzar"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "dide",
+    name: "Diptangshu Dey",
+    title: "SPASE'27 @ IITK | CSE'24 @ NIT Durgapur | FOSSEE '23 | Finalist @ IICC'22 | Front-end Developer",
+    organization: "",
+    imageSrc: dide,
+    social: {
+      linkedin: "https://www.linkedin.com/in/diptangshu-dey-3b656a200/?originalSubdomain=in",
+      github: "https://github.com/ThaHobbyist/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "sasu",
+    name: "Sagar Sundaray",
+    title: "Software Maintenance Engineer at Redhat",
+    organization: "",
+    imageSrc: sasu,
+    social: {
+      github: "https://github.com/sundaray/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "swpa",
+    name: "Swaraj Pande",
+    title: "Associate Software Engineer (L1) @ Red Hat • Red Hat Certified Engineer • Former Summer Research Intern @ IIT - Kharagpur",
+    organization: "",
+    imageSrc: swpa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/swarajpande5/?originalSubdomain=in",
+      github: "https://github.com/swarajpande5/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "prku",
+    name: "Prajwal Kumar Karnad",
+    title: "Student at Indian Institute of Information Technology Kottayam",
+    organization: "",
+    imageSrc: prku,
+    social: {
+      linkedin: "https://www.linkedin.com/in/prajwal-kumar-karnad-632411307/?originalSubdomain=in",
+      github: "https://github.com/Prajwal-k-tech/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "shse",
+    name: "Shaun Sebastian",
+    title: "Student at Indian Institute of Information Technology Kottayam",
+    organization: "",
+    imageSrc: shse,
+    social: {
+      linkedin: "https://www.linkedin.com/in/shaun-sebastian-46266a325/?originalSubdomain=in",
+      github: "https://github.com/shaunsebastian"
+    },
+    featured: true,
+    track: "oosc",
+  },
+   {
+    id: "jiyu",
+    name: "Jiongchi Yu",
+    title: "PhD Student in CS @ SMU",
+    organization: "",
+    imageSrc: jiyu,
+    social: {
+      linkedin: "https://www.linkedin.com/in/jiongchiyu/?originalSubdomain=sg",
+      github: "https://github.com/fish98/CRS_Bugs"
+    },
+    featured: true,
+    track: "oosc",
+  },
+   {
+    id: "disr",
+    name: "Divy Srivastava",
+    title: "Software Engineer at Deno",
+    organization: "",
+    imageSrc: disr,
+    social: {
+      linkedin: "https://www.linkedin.com/in/divy-srivastava-032939150/?originalSubdomain=in",
+      github: "https://github.com/littledivy"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "akka",
+    name: "Akarshan Kapoor",
+    title: "GSoC '23 @ The Linux Foundation | Speaker @ Ubuntu Summit 2023 | Runner Up @ SIF Space Hackathon 2023 | Actively building in the Open Source Community | Growing up with AI",
+    organization: "",
+    imageSrc: akka,
+    social: {
+      linkedin: "https://www.linkedin.com/in/akarshan111/?originalSubdomain=in",
+      github: "https://github.com/CodingWarrior33"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "laba",
+    name: "Lakshay Bandlish",
+    title: "Senior SWE @ Google | IIT Kanpur CSE",
+    organization: "",
+    imageSrc: laba,
+    social: {
+      linkedin: "https://www.linkedin.com/in/lakshaybandlish/?originalSubdomain=in",
+      github: "https://github.com/lbandlish"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "mino",
+    name: "Mikhail Novoselov",
+    title: "International Business Development | Project Management in IoT, AI and Robotics",
+    organization: "",
+    imageSrc: mino,
+    social: {
+      linkedin: "https://www.linkedin.com/in/mikhailnovoselov/",
+      github: "https://github.com/mikhailnov"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "aisi",
+    name: "Aishvarya Sinha",
+    title: "Senior Consultant at EY",
+    organization: "",
+    imageSrc: aisi,
+    social: {
+      linkedin: "https://www.linkedin.com/in/aishwarya-s-b357b5169/?originalSubdomain=in",
+      github: "https://github.com/azzwrya"
     },
     featured: true,
     track: "oosc",

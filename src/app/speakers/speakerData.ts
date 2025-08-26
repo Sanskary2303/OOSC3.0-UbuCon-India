@@ -26,14 +26,19 @@ import myth from './images/myo_thinzar.jpeg';
 import dide from './images/diptangshu_dey.jpeg';
 import sasu from './images/sagar_sundaray.png';
 import swpa from './images/swaraj_pande.jpeg';
-import prku from './images/prajwal_kumar.jpeg';
-import shse from './images/shaun_sebastian.jpeg';
 import disr from './images/divy_srivastava.jpeg';
-import jiyu from './images/Jiongchi_yu.jpeg';
+import jiyu from './images/Jiongchi_Yu.png';
 import akka from './images/akarshan_kapoor.jpeg';
 import laba from './images/Lakshay_Bandlish.jpeg';
 import mino from './images/mikhail_novoselov.jpeg';
 import aisi from './images/Aishvarya_sinha.jpeg';
+import moim from './images/Mohammed_imaduddin.jpeg';
+import aakh from './images/Aaryan_Khandelwal.jpeg';
+import nida from './images/Nikitha_Dhanabal_Vidushi.jpeg';
+import aygh from './images/Ayush_Ghai.jpeg';
+import frst from './images/Francis_Steen.jpeg';
+import papa from './images/Paritoshik_Paul.jpeg';
+
 
 export const speakers = [
   {
@@ -49,7 +54,8 @@ export const speakers = [
     },
     featured: true,
     track: "oosc",
-  },{
+  },
+  {
     id: "avbs",
     name: "AVEEK BASU",
     title: "Org Admin - The Linux Foundation GSoC projects Community & Program Manager OpenPrinting, Zephyr Ambassador",
@@ -427,32 +433,6 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  {
-    id: "prku",
-    name: "Prajwal Kumar Karnad",
-    title: "Student at Indian Institute of Information Technology Kottayam",
-    organization: "",
-    imageSrc: prku,
-    social: {
-      linkedin: "https://www.linkedin.com/in/prajwal-kumar-karnad-632411307/?originalSubdomain=in",
-      github: "https://github.com/Prajwal-k-tech/"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "shse",
-    name: "Shaun Sebastian",
-    title: "Student at Indian Institute of Information Technology Kottayam",
-    organization: "",
-    imageSrc: shse,
-    social: {
-      linkedin: "https://www.linkedin.com/in/shaun-sebastian-46266a325/?originalSubdomain=in",
-      github: "https://github.com/shaunsebastian"
-    },
-    featured: true,
-    track: "oosc",
-  },
    {
     id: "jiyu",
     name: "Jiongchi Yu",
@@ -527,6 +507,81 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/aishwarya-s-b357b5169/?originalSubdomain=in",
       github: "https://github.com/azzwrya"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "moim",
+    name: "Mohammed Imaduddin",
+    title: "GSoC'25 @The Linux Foundation | Vice-President COSC | Student at CBIT",
+    organization: "",
+    imageSrc: moim,
+    social: {
+      linkedin: "https://www.linkedin.com/in/mdimado/?originalSubdomain=in",
+      github: "https://github.com/mdimado/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "aakh",
+    name: "Aaryan Khandelwal",
+    title: "SDE at Plane",
+    organization: "",
+    imageSrc: aakh,
+    social: {
+      linkedin: "https://www.linkedin.com/in/aaryan-khandelwal/",
+      github: "https://github.com/aaryan610"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "nida",
+    name: "Nikitha Dhanabal Vidushi",
+    title: "Test Engineer Analyst",
+    organization: "",
+    imageSrc: nida,
+    social: {
+      linkedin: "https://www.linkedin.com/in/nikitha-d-v-79433214b/?originalSubdomain=in",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "aygh",
+    name: " Ayush Ghai",
+    title: "CETO Godspeed Systems",
+    organization: "",
+    imageSrc: aygh,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ayushghai/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "frst",
+    name: "Francis Frode Steen",
+    title: "Associate Professor at UCLA",
+    organization: "",
+    imageSrc: frst,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ffsteen/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "papa",
+    name: "Paritoshik Paul",
+    title: "Technical Architect | Speaker | Drupal Enthusiast & X GSOC Mentor",
+    organization: "",
+    imageSrc: papa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/paritoshik-paul-681a2758/",
+      github: "https://github.com/ParitoshikPaul"
     },
     featured: true,
     track: "oosc",

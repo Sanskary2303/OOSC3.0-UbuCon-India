@@ -167,9 +167,9 @@ export const speakers = [
     imageSrc: suka,
     social: {
       twitter: "",
-      linkedin: "https://www.linkedin.com/in/kamppetertill/",
-      github: "https://github.com/tillkamppeter",
-      website: "",
+      linkedin: "https://www.linkedin.com/in/sumanto-kar-0424391a9/",
+      github: "https://github.com/Eyantra698Sumanto/",
+      website: "https://homepages.iitb.ac.in/~sumantokar/",
     },
     featured: true,
     track: "oosc",
@@ -280,19 +280,6 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "haji",
-    name: "Hardik Jindal",
-    title: "OS Reaearch Fellow, Manifold Research || GSoC'24@C2SI || Coordinator@Programming Club IITK || EE'26@IITK",
-    organization: "",
-    imageSrc: haji,
-    social: {
-      linkedin: "https://www.linkedin.com/in/hardik-jindal-1a2176250/?originalSubdomain=in",
-      github: "https://github.com/hardik1408/",
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
     id: "jata",
     name: "Jayanth Tatineni",
     title: "Developer with a Security Mindset | Final Year BTech Cybersecurity Student @ GITAM | Ex-Intern @ FOSSEE, IIT Bombay",
@@ -369,15 +356,15 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  {
-    id: "ruma",
-    name: "Rudra Mani Upadhyay",
-    title: "Attending Dronacharya College of Engineering | Cse(AI-ML)",
+   { 
+    id: "laba",
+    name: "Lakshay Bandlish",
+    title: "Senior SWE @ Google | IIT Kanpur CSE",
     organization: "",
-    imageSrc: ruma,
+    imageSrc: laba,
     social: {
-      linkedin: "https://www.linkedin.com/in/rudra-mani-upadhyay-47832b289/?originalSubdomain=in",
-      github: "https://github.com/Rudramani1"
+      linkedin: "https://www.linkedin.com/in/lakshaybandlish/?originalSubdomain=in",
+      github: "https://github.com/lbandlish"
     },
     featured: true,
     track: "oosc",
@@ -391,19 +378,6 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/myo-thinzar-kyaw-4181781a7/?originalSubdomain=mm",
       github: "https://github.com/Myo-Thinzar"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "dide",
-    name: "Diptangshu Dey",
-    title: "SPASE'27 @ IITK | CSE'24 @ NIT Durgapur | FOSSEE '23 | Finalist @ IICC'22 | Front-end Developer",
-    organization: "",
-    imageSrc: dide,
-    social: {
-      linkedin: "https://www.linkedin.com/in/diptangshu-dey-3b656a200/?originalSubdomain=in",
-      github: "https://github.com/ThaHobbyist/"
     },
     featured: true,
     track: "oosc",
@@ -459,32 +433,6 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  {
-    id: "akka",
-    name: "Akarshan Kapoor",
-    title: "GSoC '23 @ The Linux Foundation | Speaker @ Ubuntu Summit 2023 | Runner Up @ SIF Space Hackathon 2023 | Actively building in the Open Source Community | Growing up with AI",
-    organization: "",
-    imageSrc: akka,
-    social: {
-      linkedin: "https://www.linkedin.com/in/akarshan111/?originalSubdomain=in",
-      github: "https://github.com/CodingWarrior33"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  { 
-    id: "laba",
-    name: "Lakshay Bandlish",
-    title: "Senior SWE @ Google | IIT Kanpur CSE",
-    organization: "",
-    imageSrc: laba,
-    social: {
-      linkedin: "https://www.linkedin.com/in/lakshaybandlish/?originalSubdomain=in",
-      github: "https://github.com/lbandlish"
-    },
-    featured: true,
-    track: "oosc",
-  },
   { 
     id: "mino",
     name: "Mikhail Novoselov",
@@ -505,8 +453,8 @@ export const speakers = [
     organization: "",
     imageSrc: aisi,
     social: {
-      linkedin: "https://www.linkedin.com/in/aishwarya-s-b357b5169/?originalSubdomain=in",
-      github: "https://github.com/azzwrya"
+      linkedin: " https://github.com/Aishw31",
+      github: "https://www.linkedin.com/in/aishwarya-sinha-61618a328"
     },
     featured: true,
     track: "oosc",
@@ -525,6 +473,18 @@ export const speakers = [
     track: "oosc",
   },
   { 
+    id: "frst",
+    name: "Francis Frode Steen",
+    title: "Associate Professor at UCLA",
+    organization: "",
+    imageSrc: frst,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ffsteen/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+   { 
     id: "aakh",
     name: "Aaryan Khandelwal",
     title: "SDE at Plane",
@@ -533,6 +493,32 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/aaryan-khandelwal/",
       github: "https://github.com/aaryan610"
+    },
+    featured: true,
+    track: "oosc",
+  },
+    {
+    id: "dide",
+    name: "Diptangshu Dey",
+    title: "SPASE'27 @ IITK | CSE'24 @ NIT Durgapur | FOSSEE '23 | Finalist @ IICC'22 | Front-end Developer",
+    organization: "",
+    imageSrc: dide,
+    social: {
+      linkedin: "https://www.linkedin.com/in/diptangshu-dey-3b656a200/?originalSubdomain=in",
+      github: "https://github.com/ThaHobbyist/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "papa",
+    name: "Paritoshik Paul",
+    title: "Technical Architect | Speaker | Drupal Enthusiast & X GSOC Mentor",
+    organization: "",
+    imageSrc: papa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/paritoshik-paul-681a2758/",
+      github: "https://github.com/ParitoshikPaul"
     },
     featured: true,
     track: "oosc",
@@ -561,27 +547,41 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
-    id: "frst",
-    name: "Francis Frode Steen",
-    title: "Associate Professor at UCLA",
+      {
+    id: "haji",
+    name: "Hardik Jindal",
+    title: "OS Reaearch Fellow, Manifold Research || GSoC'24@C2SI || Coordinator@Programming Club IITK || EE'26@IITK",
     organization: "",
-    imageSrc: frst,
+    imageSrc: haji,
     social: {
-      linkedin: "https://www.linkedin.com/in/ffsteen/",
+      linkedin: "https://www.linkedin.com/in/hardik-jindal-1a2176250/?originalSubdomain=in",
+      github: "https://github.com/hardik1408/",
     },
     featured: true,
     track: "oosc",
   },
-  { 
-    id: "papa",
-    name: "Paritoshik Paul",
-    title: "Technical Architect | Speaker | Drupal Enthusiast & X GSOC Mentor",
+      {
+    id: "akka",
+    name: "Akarshan Kapoor",
+    title: "GSoC '23 @ The Linux Foundation | Speaker @ Ubuntu Summit 2023 | Runner Up @ SIF Space Hackathon 2023 | Actively building in the Open Source Community | Growing up with AI",
     organization: "",
-    imageSrc: papa,
+    imageSrc: akka,
     social: {
-      linkedin: "https://www.linkedin.com/in/paritoshik-paul-681a2758/",
-      github: "https://github.com/ParitoshikPaul"
+      linkedin: "https://www.linkedin.com/in/akarshan111/?originalSubdomain=in",
+      github: "https://github.com/CodingWarrior33"
+    },
+    featured: true,
+    track: "oosc",
+  },
+    {
+    id: "ruma",
+    name: "Rudra Mani Upadhyay",
+    title: "Attending Dronacharya College of Engineering | Cse(AI-ML)",
+    organization: "",
+    imageSrc: ruma,
+    social: {
+      linkedin: "https://www.linkedin.com/in/rudra-mani-upadhyay-47832b289/?originalSubdomain=in",
+      github: "https://github.com/Rudramani1"
     },
     featured: true,
     track: "oosc",

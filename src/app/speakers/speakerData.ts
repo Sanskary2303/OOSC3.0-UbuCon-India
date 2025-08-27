@@ -38,6 +38,7 @@ import nida from './images/Nikitha_Dhanabal_Vidushi.jpeg';
 import aygh from './images/Ayush_Ghai.jpeg';
 import frst from './images/Francis_Steen.jpeg';
 import papa from './images/Paritoshik_Paul.jpeg';
+import matu from './images/Mark_Turner.jpeg';
 
 
 export const speakers = [
@@ -573,7 +574,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-    {
+  {
     id: "ruma",
     name: "Rudra Mani Upadhyay",
     title: "Attending Dronacharya College of Engineering | Cse(AI-ML)",
@@ -582,6 +583,19 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/rudra-mani-upadhyay-47832b289/?originalSubdomain=in",
       github: "https://github.com/Rudramani1"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "matu",
+    name: "Mark Turner",
+    title: "Institute Professor at Case Western Reserve University",
+    organization: "",
+    imageSrc: matu,
+    social: {
+      linkedin: "https://www.linkedin.com/in/mark-turner-a583b/",
+      website: "https://markturner.org/"
     },
     featured: true,
     track: "oosc",

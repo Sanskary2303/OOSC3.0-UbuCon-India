@@ -129,17 +129,14 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  {
-    id: "wano",
-    name: "Wajoud Noorani",
-    title: "Data Scientist",
-    organization: "JAR",
-    imageSrc: wano,
+  { 
+    id: "aygh",
+    name: " Ayush Ghai",
+    title: "CETO Godspeed Systems",
+    organization: "",
+    imageSrc: aygh,
     social: {
-      twitter: "",
-      linkedin: "https://www.linkedin.com/in/wajoud-noorani-7b6054118/",
-      github: "https://github.com/wajoud",
-      website: "https://wajoudnoorani.com",
+      linkedin: "https://www.linkedin.com/in/ayushghai/",
     },
     featured: true,
     track: "oosc",
@@ -281,44 +278,6 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "jata",
-    name: "Jayanth Tatineni",
-    title: "Developer with a Security Mindset | Final Year BTech Cybersecurity Student @ GITAM | Ex-Intern @ FOSSEE, IIT Bombay",
-    organization: "",
-    imageSrc: jata,
-    social: {
-      linkedin: "https://www.linkedin.com/in/jayanth-tatineni/",
-    },
-    featured: true,
-    track: "oosc",
-  },
-   {
-    id: "vapa",
-    name: "Varad Patil",
-    title: "IITB Employee - FOSSEE - PRA - eSim | ISRO Research Trainee | Video Editor at Contour Education, Australia | President of EESA at SGGSIE&T | B.Tech in Electrical Engineering | Leading Robotics Innovation",
-    organization: "",
-    imageSrc: vapa,
-    social: {
-      linkedin: "https://www.linkedin.com/in/patilvarad/?originalSubdomain=in",
-      github:"https://github.com/OfficialVarad"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "shpr",
-    name: "Shanthi Priya",
-    title: "Project Research Assistant @FOSSEE IIT Bombay | ECE '25 | VLSI Design Enthusiast | Electronics",
-    organization: "",
-    imageSrc: shpr,
-    social: {
-      linkedin: "https://www.linkedin.com/in/shanthi-priya20/?originalSubdomain=in",
-      github: "https://github.com/Shanthipriya20"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
     id: "kamo",
     name: "Kannan Moudgalya",
     title: "Emeretius Fellow, Indian Institute of Technology, Bombay, FOSSEE Project (Indian Institute of Technology, Bombay)",
@@ -327,58 +286,6 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/kannan-moudgalya-4998a546/?originalSubdomain=in",
       github: "https://github.com/kannan-moudgalya"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "siba",
-    name: "Siddharth Bhat",
-    title: "PhD Student at Cambridge University",
-    organization: "",
-    imageSrc: siba,
-    social: {
-      linkedin: "https://www.linkedin.com/in/siddharth-bhat-388b60104/?originalSubdomain=uk",
-      github: "https://github.com/Sidhub723"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "adbh",
-    name: "Aditya Bhattacharya",
-    title: "LFX'25 @LFDT | SDE Intern @FOSSEE, IIT Bombay | Amazon MLSS'25 | SIH'24 Finalist | Top 95 Asia-Pacific Google AI Hackathon | SWE Fellow @Keploy & @Headstarter AI | CS Head IEEE-RGIPT | Technical Researcher | RGIPT'27",
-    organization: "",
-    imageSrc: adbh,
-    social: {
-      linkedin: "https://www.linkedin.com/in/aditya-bhattacharya-b2776a29b/?originalSubdomain=in",
-      github: "https://github.com/ADITYA-BHATTACHARYA-DEV/"
-    },
-    featured: true,
-    track: "oosc",
-  },
-   { 
-    id: "laba",
-    name: "Lakshay Bandlish",
-    title: "Senior SWE @ Google | IIT Kanpur CSE",
-    organization: "",
-    imageSrc: laba,
-    social: {
-      linkedin: "https://www.linkedin.com/in/lakshaybandlish/?originalSubdomain=in",
-      github: "https://github.com/lbandlish"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
-    id: "myth",
-    name: "Myo Thinzar Kyaw",
-    title: "Junior Data Analyst",
-    organization: "",
-    imageSrc: myth,
-    social: {
-      linkedin: "https://www.linkedin.com/in/myo-thinzar-kyaw-4181781a7/?originalSubdomain=mm",
-      github: "https://github.com/Myo-Thinzar"
     },
     featured: true,
     track: "oosc",
@@ -421,19 +328,6 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-   {
-    id: "disr",
-    name: "Divy Srivastava",
-    title: "Software Engineer at Deno",
-    organization: "",
-    imageSrc: disr,
-    social: {
-      linkedin: "https://www.linkedin.com/in/divy-srivastava-032939150/?originalSubdomain=in",
-      github: "https://github.com/littledivy"
-    },
-    featured: true,
-    track: "oosc",
-  },
   { 
     id: "mino",
     name: "Mikhail Novoselov",
@@ -443,6 +337,46 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/mikhailnovoselov/",
       github: "https://github.com/mikhailnov"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "frst",
+    name: "Francis Frode Steen",
+    title: "Associate Professor at UCLA",
+    organization: "",
+    imageSrc: frst,
+    social: {
+      linkedin: "https://www.linkedin.com/in/ffsteen/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "matu",
+    name: "Mark Turner",
+    title: "Institute Professor at Case Western Reserve University",
+    organization: "",
+    imageSrc: matu,
+    social: {
+      linkedin: "https://www.linkedin.com/in/mark-turner-a583b/",
+      website: "https://markturner.org/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "wano",
+    name: "Wajoud Noorani",
+    title: "Data Scientist",
+    organization: "JAR",
+    imageSrc: wano,
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/wajoud-noorani-7b6054118/",
+      github: "https://github.com/wajoud",
+      website: "https://wajoudnoorani.com",
     },
     featured: true,
     track: "oosc",
@@ -469,18 +403,6 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/mdimado/?originalSubdomain=in",
       github: "https://github.com/mdimado/"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  { 
-    id: "frst",
-    name: "Francis Frode Steen",
-    title: "Associate Professor at UCLA",
-    organization: "",
-    imageSrc: frst,
-    social: {
-      linkedin: "https://www.linkedin.com/in/ffsteen/",
     },
     featured: true,
     track: "oosc",
@@ -536,18 +458,6 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
-    id: "aygh",
-    name: " Ayush Ghai",
-    title: "CETO Godspeed Systems",
-    organization: "",
-    imageSrc: aygh,
-    social: {
-      linkedin: "https://www.linkedin.com/in/ayushghai/",
-    },
-    featured: true,
-    track: "oosc",
-  },
       {
     id: "haji",
     name: "Hardik Jindal",
@@ -588,14 +498,104 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "matu",
-    name: "Mark Turner",
-    title: "Institute Professor at Case Western Reserve University",
+    id: "jata",
+    name: "Jayanth Tatineni",
+    title: "Developer with a Security Mindset | Final Year BTech Cybersecurity Student @ GITAM | Ex-Intern @ FOSSEE, IIT Bombay",
     organization: "",
-    imageSrc: matu,
+    imageSrc: jata,
     social: {
-      linkedin: "https://www.linkedin.com/in/mark-turner-a583b/",
-      website: "https://markturner.org/"
+      linkedin: "https://www.linkedin.com/in/jayanth-tatineni/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "vapa",
+    name: "Varad Patil",
+    title: "IITB Employee - FOSSEE - PRA - eSim | ISRO Research Trainee | Video Editor at Contour Education, Australia | President of EESA at SGGSIE&T | B.Tech in Electrical Engineering | Leading Robotics Innovation",
+    organization: "",
+    imageSrc: vapa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/patilvarad/?originalSubdomain=in",
+      github:"https://github.com/OfficialVarad"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "shpr",
+    name: "Shanthi Priya",
+    title: "Project Research Assistant @FOSSEE IIT Bombay | ECE '25 | VLSI Design Enthusiast | Electronics",
+    organization: "",
+    imageSrc: shpr,
+    social: {
+      linkedin: "https://www.linkedin.com/in/shanthi-priya20/?originalSubdomain=in",
+      github: "https://github.com/Shanthipriya20"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "siba",
+    name: "Siddharth Bhat",
+    title: "PhD Student at Cambridge University",
+    organization: "",
+    imageSrc: siba,
+    social: {
+      linkedin: "https://www.linkedin.com/in/siddharth-bhat-388b60104/?originalSubdomain=uk",
+      github: "https://github.com/Sidhub723"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "adbh",
+    name: "Aditya Bhattacharya",
+    title: "LFX'25 @LFDT | SDE Intern @FOSSEE, IIT Bombay | Amazon MLSS'25 | SIH'24 Finalist | Top 95 Asia-Pacific Google AI Hackathon | SWE Fellow @Keploy & @Headstarter AI | CS Head IEEE-RGIPT | Technical Researcher | RGIPT'27",
+    organization: "",
+    imageSrc: adbh,
+    social: {
+      linkedin: "https://www.linkedin.com/in/aditya-bhattacharya-b2776a29b/?originalSubdomain=in",
+      github: "https://github.com/ADITYA-BHATTACHARYA-DEV/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  { 
+    id: "laba",
+    name: "Lakshay Bandlish",
+    title: "Senior SWE @ Google | IIT Kanpur CSE",
+    organization: "",
+    imageSrc: laba,
+    social: {
+      linkedin: "https://www.linkedin.com/in/lakshaybandlish/?originalSubdomain=in",
+      github: "https://github.com/lbandlish"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "myth",
+    name: "Myo Thinzar Kyaw",
+    title: "Junior Data Analyst",
+    organization: "",
+    imageSrc: myth,
+    social: {
+      linkedin: "https://www.linkedin.com/in/myo-thinzar-kyaw-4181781a7/?originalSubdomain=mm",
+      github: "https://github.com/Myo-Thinzar"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "disr",
+    name: "Divy Srivastava",
+    title: "Software Engineer at Deno",
+    organization: "",
+    imageSrc: disr,
+    social: {
+      linkedin: "https://www.linkedin.com/in/divy-srivastava-032939150/?originalSubdomain=in",
+      github: "https://github.com/littledivy"
     },
     featured: true,
     track: "oosc",

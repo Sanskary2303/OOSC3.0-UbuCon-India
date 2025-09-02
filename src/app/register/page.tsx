@@ -3,7 +3,7 @@ import PageWrapper from "@/components/layout/PageWrapper";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import p1 from "../img/payment1.png";
+import p1 from "../img/payment1.jpg";
 import p2 from "../img/payment2.png";
 export default function RegisterPage() {
   return (
@@ -84,7 +84,6 @@ export default function RegisterPage() {
     alt="First image description"
     className="w-full rounded-2xl shadow-lg object-cover"
   />
-  <p>Enter your details and follow the instructions to complete the payment.</p>
   <Image
     src={p2}
     alt="Second image description"

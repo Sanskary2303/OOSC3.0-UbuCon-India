@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Background particle effect */}
       <div className="absolute inset-0 bg-[url('/img/hero-section.png')] bg-cover opacity-20" />
 
-      <div className="container mx-auto px-6 py-24 pt-32 md:pt-40 relative z-10">
+      <div className="container mx-auto py-24 pt-32 md:pt-40 relative z-10 pl-45">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <motion.h1

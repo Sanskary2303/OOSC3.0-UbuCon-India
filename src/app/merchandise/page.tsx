@@ -12,7 +12,6 @@ export default function MerchandisePage() {
           community.
         </p>
 
-        {/* Fake order link */}
         <a
           href="https://forms.gle/N7Co9NdtrPd4nm2Y9"
           target="_blank"
@@ -22,7 +21,6 @@ export default function MerchandisePage() {
           Order Merchandise
         </a>
 
-        {/* Merchandise Photo */}
         <div className="mt-12 flex justify-center">
           <div className="w-[500px] overflow-hidden rounded-2xl shadow-lg">
             <Image

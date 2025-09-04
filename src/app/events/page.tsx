@@ -156,14 +156,14 @@ export default function EventsPage() {
 
         {/* Program Highlights Coming Soon */}
         <div className="bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-lg p-6 text-center">
-          <h2 className="text-xl font-bold mb-4">Full Program Coming Soon</h2>
+          <h2 className="text-xl font-bold mb-4">Full Program Details</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            The complete program schedule with session details will be announced after the call for proposals closes.
-            Check back later or subscribe to receive updates.
+            All events, talks and workshops are scheduled and added to the website.<br />
+            The complete program schedule with session details can be found in the Calendar page.
           </p>
           <Button asChild className="bg-[#1d3958] hover:bg-[#152b44] dark:bg-[#2a4c76] dark:hover:bg-[#1d3958]">
-            <Link href="/register">
-              Stay Updated
+            <Link href="/calendar">
+              Schedule
             </Link>
           </Button>
         </div>

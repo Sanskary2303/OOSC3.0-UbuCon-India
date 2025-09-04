@@ -19,7 +19,6 @@ const events: Event[] = [
     title: "Talks",
     description: "Explore insightful talks by industry leaders and experts, covering a wide range of topics from cutting-edge technologies to career development.",
     link: "/speakers",
-    room: "Room 1",
     startTime: new Date("2025-09-04T10:00:00"),
     endTime: new Date("2025-09-04T12:00:00"),
     mode: "In Person",
@@ -30,7 +29,6 @@ const events: Event[] = [
     title: "Workshops",
     description: "Hands-on workshops designed to deepen your skills and knowledge in specific areas, led by experienced instructors in interactive sessions.",
     link: "/events",
-    room: "Room 2",
     startTime: new Date("2025-09-04T10:00:00"),
     endTime: new Date("2025-09-04T16:00:00"),
     mode: "In Person",
@@ -41,7 +39,6 @@ const events: Event[] = [
     title: "Hackathon",
     description: "Join our hackathon and showcase your coding prowess. Compete with fellow developers to solve real-world challenges and win exciting prizes.",
     link: "/hackathon",
-    room: "Main Hall",
     startTime: new Date("2025-09-05T10:00:00"),
     endTime: new Date("2025-09-05T21:00:00"),
     mode: "In Person",
@@ -87,11 +84,6 @@ export default function EventsSection() {
                       📍 {event.room}
                     </p>
                   )}
-                  {event.startTime && event.endTime && (
-                    <p className="text-sm text-center text-gray-500 dark:text-gray-400 font-medium mb-4">
-                      ⏰ {formatTime(event.startTime)} – {formatTime(event.endTime)}
-                    </p>
-                  )}
                   {event.link && (
                     <div className="text-center mt-auto">
                       <Button
@@ -115,7 +107,7 @@ export default function EventsSection() {
             size="lg"
             className="bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white rounded-lg px-8"
           >
-            <Link href="/events">View All Events</Link>
+            <Link href="/calendar">View All Events</Link>
           </Button>
         </div>
       </div>

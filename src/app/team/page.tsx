@@ -7,6 +7,8 @@ type Member = {
   name: string;
   linkedin?: string;
   image: any;
+  phone?: string;
+  email?: string;
 };
 
 type TeamCategory = {

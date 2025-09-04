@@ -11,7 +11,7 @@ export default function CalendarPage() {
       description: "By Aveek Basu et al.",
       startTime: new Date("2025-09-05T10:30:00"),
       endTime: new Date("2025-09-05T10:50:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -20,7 +20,7 @@ export default function CalendarPage() {
       description: "By Aveek Basu",
       startTime: new Date("2025-09-05T10:50:00"),
       endTime: new Date("2025-09-05T11:30:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -29,7 +29,7 @@ export default function CalendarPage() {
       description: "By Francis Steen et al .",
       startTime: new Date("2025-09-05T10:50:00"),
       endTime: new Date("2025-09-05T11:10:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -38,7 +38,7 @@ export default function CalendarPage() {
       description: "By Mr Abhishek Kumar",
       startTime: new Date("2025-09-05T11:10:00"),
       endTime: new Date("2025-09-05T11:35:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -47,7 +47,7 @@ export default function CalendarPage() {
       description: "By Neeraj Poddar et al.",
       startTime: new Date("2025-09-05T11:35:00"),
       endTime: new Date("2025-09-05T12:15:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -56,7 +56,7 @@ export default function CalendarPage() {
       description: "By Hardik Jindal",
       startTime: new Date("2025-09-05T11:35:00"),
       endTime: new Date("2025-09-05T12:15:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -65,7 +65,7 @@ export default function CalendarPage() {
       description: "By Mr. Sagar Sundaray et al.",
       startTime: new Date("2025-09-05T11:35:00"),
       endTime: new Date("2025-09-05T13:05:00"),
-      room: "Room 3",
+      room: "LH-13",
       mode: "In Person",
     },
     {
@@ -74,7 +74,7 @@ export default function CalendarPage() {
       description: "By Mikhail Novosyolov",
       startTime: new Date("2025-09-05T12:20:00"),
       endTime: new Date("2025-09-05T13:00:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -83,7 +83,7 @@ export default function CalendarPage() {
       description: "By Alexander Pevzner",
       startTime: new Date("2025-09-05T12:20:00"),
       endTime: new Date("2025-09-05T13:00:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -92,7 +92,7 @@ export default function CalendarPage() {
       description: "By Mohammed Imaduddin",
       startTime: new Date("2025-09-05T13:05:00"),
       endTime: new Date("2025-09-05T13:45:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -101,7 +101,7 @@ export default function CalendarPage() {
       description: "By Bhavanishankar Ravindra",
       startTime: new Date("2025-09-05T13:05:00"),
       endTime: new Date("2025-09-05T13:45:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -118,7 +118,7 @@ export default function CalendarPage() {
       description: "By Till Kamppeter",
       startTime: new Date("2025-09-05T15:00:00"),
       endTime: new Date("2025-09-05T15:40:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -127,7 +127,7 @@ export default function CalendarPage() {
       description: "By Divy Srivastava",
       startTime: new Date("2025-09-05T15:20:00"),
       endTime: new Date("2025-09-05T15:40:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -136,7 +136,7 @@ export default function CalendarPage() {
       description: "By Till Kamppeter et al.",
       startTime: new Date("2025-09-05T15:40:00"),
       endTime: new Date("2025-09-05T16:00:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -145,7 +145,7 @@ export default function CalendarPage() {
       description: "By Mr Akash Sankarayanan et al.",
       startTime: new Date("2025-09-05T15:40:00"),
       endTime: new Date("2025-09-05T16:00:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -154,7 +154,7 @@ export default function CalendarPage() {
       description: "By Mr Lhokshek Kumar",
       startTime: new Date("2025-09-05T16:05:00"),
       endTime: new Date("2025-09-05T16:45:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -163,7 +163,7 @@ export default function CalendarPage() {
       description: "By Yash Malviya",
       startTime: new Date("2025-09-05T16:05:00"),
       endTime: new Date("2025-09-05T16:45:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -172,7 +172,7 @@ export default function CalendarPage() {
         description: "By Mohammed Imaduddin",
         startTime: new Date("2025-09-05T16:00:00"),
         endTime: new Date("2025-09-05T17:30:00"),
-        room: "Room 3",
+        room: "LH-13",
         mode: "In Person",
     },
     {
@@ -181,7 +181,7 @@ export default function CalendarPage() {
         description: "By Aveek Basu et al.",
         startTime: new Date("2025-09-05T16:50:00"),
         endTime: new Date("2025-09-05T17:30:00"),
-        room: "Room 1",
+        room: "LH-18",
         mode: "In Person",
     },
     {
@@ -190,7 +190,7 @@ export default function CalendarPage() {
         description: "By Jiongchi Yu",
         startTime: new Date("2025-09-05T16:50:00"),
         endTime: new Date("2025-09-05T17:30:00"),
-        room: "Room 2",
+        room: "LH-12",
         mode: "In Person",
     },
     {
@@ -207,7 +207,7 @@ export default function CalendarPage() {
         description: "By Till Kamppeter",
         startTime: new Date("2025-09-05T17:45:00"),
         endTime: new Date("2025-09-05T18:25:00"),
-        room: "Room 1",
+        room: "LH-18",
         mode: "In Person",
     },
     {
@@ -216,7 +216,7 @@ export default function CalendarPage() {
         description: "By Shuah Khan",
         startTime: new Date("2025-09-05T17:45:00"),
         endTime: new Date("2025-09-05T18:05:00"),
-        room: "Room 2",
+        room: "LH-12",
         mode: "In Person",
     },
     {
@@ -225,7 +225,7 @@ export default function CalendarPage() {
         description: "By Mr Utkarsh Bhatt",
         startTime: new Date("2025-09-05T17:45:00"),
         endTime: new Date("2025-09-05T19:15:00"),
-        room: "Room 3",
+        room: "LH-13",
         mode: "In Person",
     },
 
@@ -236,7 +236,7 @@ export default function CalendarPage() {
       description: "By Adair Cerecedo-Mendez",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T11:40:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -245,7 +245,7 @@ export default function CalendarPage() {
       description: "By Mr Ayush Ghai",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T11:40:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -254,7 +254,7 @@ export default function CalendarPage() {
       description: "By Till Kamppeter",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T12:30:00"),
-      room: "Room 3",
+      room: "LH-13",
       mode: "In Person",
     },
     {
@@ -263,7 +263,7 @@ export default function CalendarPage() {
         description: "By Mr Aditya Bhattacharya et al.",
         startTime: new Date("2025-09-06T11:40:00"),
         endTime: new Date("2025-09-06T12:10:00"),
-        room: "Room 2",
+        room: "LH-12",
         mode: "In Person",
     },
     {
@@ -272,7 +272,7 @@ export default function CalendarPage() {
       description: "By Mr Arjun Kumar-Mana et al.",
       startTime: new Date("2025-09-06T11:45:00"),
       endTime: new Date("2025-09-06T12:25:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -281,7 +281,7 @@ export default function CalendarPage() {
       description: "By Yuning Liang",
       startTime: new Date("2025-09-06T12:10:00"),
       endTime: new Date("2025-09-06T12:50:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -290,7 +290,7 @@ export default function CalendarPage() {
       description: "By Neeraj Poddar",
       startTime: new Date("2025-09-06T12:25:00"),
       endTime: new Date("2025-09-06T12:55:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -299,7 +299,7 @@ export default function CalendarPage() {
       description: "By Abelardo Valdez Poot",
       startTime: new Date("2025-09-06T12:55:00"),
       endTime: new Date("2025-09-06T13:35:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -308,7 +308,7 @@ export default function CalendarPage() {
       description: "By Ayush Ghai",
       startTime: new Date("2025-09-06T12:35:00"),
       endTime: new Date("2025-09-06T14:05:00"),
-      room: "Room 3",
+      room: "LH-13",
       mode: "In Person",
     },
     {
@@ -325,7 +325,7 @@ export default function CalendarPage() {
       description: "By Oliver Volckers",
       startTime: new Date("2025-09-06T15:00:00"),
       endTime: new Date("2025-09-06T15:40:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -334,7 +334,7 @@ export default function CalendarPage() {
       description: "By Mr Anmol Sharma",
       startTime: new Date("2025-09-06T15:00:00"),
       endTime: new Date("2025-09-06T15:40:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -343,7 +343,7 @@ export default function CalendarPage() {
       description: "By Sanskar Yaduka",
       startTime: new Date("2025-09-06T15:00:00"),
       endTime: new Date("2025-09-06T15:40:00"),
-      room: "Room 3",
+      room: "LH-13",
       mode: "In Person",
     },
     {
@@ -352,7 +352,7 @@ export default function CalendarPage() {
       description: "By Lakshay Bandlish",
       startTime: new Date("2025-09-06T15:40:00"),
       endTime: new Date("2025-09-06T16:00:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -361,7 +361,7 @@ export default function CalendarPage() {
         description: "By Sidbharth Bhat",
         startTime: new Date("2025-09-06T15:40:00"),
         endTime: new Date("2025-09-06T16:00:00"),
-        room: "Room 2",
+        room: "LH-12",
         mode: "In Person",
     },
     {
@@ -370,7 +370,7 @@ export default function CalendarPage() {
         description: "By Akarsḥan Kapoor",
         startTime: new Date("2025-09-06T15:40:00"),
         endTime: new Date("2025-09-06T17:10:00"),
-        room: "Room 3",
+        room: "LH-13",
         mode: "In Person",
     },
     {
@@ -379,7 +379,7 @@ export default function CalendarPage() {
       description: "By Vidushi Sharma",
       startTime: new Date("2025-09-06T16:05:00"),
       endTime: new Date("2025-09-06T16:45:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -388,7 +388,7 @@ export default function CalendarPage() {
       description: "By Morsal Haro",
       startTime: new Date("2025-09-06T16:50:00"),
       endTime: new Date("2025-09-06T17:30:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
     {
@@ -397,7 +397,7 @@ export default function CalendarPage() {
       description: "By Aaryan Khandelwal",
       startTime: new Date("2025-09-06T16:50:00"),
       endTime: new Date("2025-09-06T17:30:00"),
-      room: "Room 2",
+      room: "LH-12",
       mode: "In Person",
     },
     {
@@ -414,7 +414,7 @@ export default function CalendarPage() {
       description: "By Aveek Basu et al.",
       startTime: new Date("2025-09-06T18:20:00"),
       endTime: new Date("2025-09-06T18:40:00"),
-      room: "Room 1",
+      room: "LH-18",
       mode: "In Person",
     },
   ];

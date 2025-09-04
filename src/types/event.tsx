@@ -8,7 +8,7 @@ export type Event = {
   description: string;
   startTime: Date;
   endTime: Date;
-  room?: "Room 1" | "Room 2" | "Room 3" | "Main Hall";
+  room?: "LH-18" | "LH-12" | "LH-13" | "Main Hall";
   mode?: "In Person" | "Remote";
   link?: string;
   icon?: LucideIcon;

@@ -5,13 +5,11 @@ import bhra from "./images/Bhavanishankar.png";
 import maha from "./images/Manuel Haro.jpg";
 import prch from "./images/Priyam_chakraborty.jpeg";
 import wano from "./images/Wajoud_ Noorani.jpeg";
-import such from "./images/suman_ch.jpg";
 import suka from "./images/sumanto_kar.png";
 import adce from "./images/Adlair.jpeg";
 import abva from "./images/Abelardo.jpeg";
 import shkh from "./images/shuah_khan.jpg";
 import utbh from "./images/utkarshbhatt.png";
-import khve from "./images/Khoosboo_verma.jpeg";
 import alpe from "./images/Alexender.jpeg";
 import olvo from "./images/Oliver Volckers.jpg";
 import haji from './images/Hardik_Jindal.jpeg';
@@ -34,12 +32,20 @@ import mino from './images/mikhail_novoselov.jpeg';
 import aisi from './images/Aishvarya_sinha.jpeg';
 import moim from './images/Mohammed_imaduddin.jpeg';
 import aakh from './images/Aaryan_Khandelwal.jpeg';
-import nida from './images/Nikitha_Dhanabal_Vidushi.jpeg';
+import nida from './images/Nikitha_Dhanabai.jpeg';
 import aygh from './images/Ayush_Ghai.jpeg';
 import frst from './images/Francis_Steen.jpeg';
 import papa from './images/Paritoshik_Paul.jpeg';
 import matu from './images/Mark_Turner.jpeg';
-
+import vish from './images/vidushi_sharma.png';
+import rapa from './images/Rashmi_Patankar.jpeg';
+import ansh from './images/Anmol_Sharma.jpeg';
+import nepo from './images/Neeraj_Poddar.jpeg';
+import saya from './images/sanskar_yaduka.jpeg';
+import vikr from './images/Viswanath_Kraleti.jpeg';
+import saak from './images/saquib_akhtar.png';
+import sapa from './images/Saiyam_pathak.jpeg';
+import pako from './images/Pavan_Kondeti.jpeg';
 
 export const speakers = [
   {
@@ -129,7 +135,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+  {
     id: "aygh",
     name: " Ayush Ghai",
     title: "CETO Godspeed Systems",
@@ -142,17 +148,14 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "such",
-    name: "Suman Chakraborty",
-    title: "Recipient of Infosys Prize, National Award for Teachers, Bhatnagar Prize Fellow of APS (USA), ASME (USA), RSC (UK), Professor",
-    organization: "IIT Kharagpur",
-    imageSrc: such,
+    id: "nepo",
+    name: "Neeraj Poddar",
+    title: "Building NimbleEdge - Open On-Device AI & Private Intelligence",
+    organization: "",
+    imageSrc: nepo,
     social: {
-      twitter: "",
-      linkedin:
-        "https://www.linkedin.com/in/suman-chakraborty-415ab3236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BTNHBXSPFQvatvRWI5fk2cQ%3D%3D",
-      github: "",
-      website: "https://sites.google.com/site/sumanchakrabortymicrofluidics/",
+      linkedin: "https://www.linkedin.com/in/nrjpoddar/?originalSubdomain=in",
+      github: "https://github.com/nrjpoddar"
     },
     featured: true,
     track: "oosc",
@@ -233,16 +236,26 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "khve",
-    name: "Khushboo Verma",
-    title: "Engineer",
-    organization: "Appwrite",
-    imageSrc: khve,
+    id: "frst",
+    name: "Francis Frode Steen",
+    title: "Associate Professor at UCLA",
+    organization: "",
+    imageSrc: frst,
     social: {
-      twitter: "https://x.com/khushbooverma_",
-      linkedin: "https://www.linkedin.com/in/verma-khushboo/",
-      github: "https://github.com/vermakhushboo",
-      website: "",
+      linkedin: "https://www.linkedin.com/in/ffsteen/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "matu",
+    name: "Mark Turner",
+    title: "Institute Professor at Case Western Reserve University",
+    organization: "",
+    imageSrc: matu,
+    social: {
+      linkedin: "https://www.linkedin.com/in/mark-turner-a583b/",
+      website: "https://markturner.org/"
     },
     featured: true,
     track: "oosc",
@@ -271,8 +284,7 @@ export const speakers = [
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/oliver-voelckers/",
-      github: "",
-      website: "",
+      website: "https://www.bestsensor.de/en/ueber-uns",
     },
     featured: true,
     track: "oosc",
@@ -303,19 +315,19 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "swpa",
-    name: "Swaraj Pande",
-    title: "Associate Software Engineer (L1) @ Red Hat • Red Hat Certified Engineer • Former Summer Research Intern @ IIT - Kharagpur",
+    id: "mino",
+    name: "Mikhail Novosyolov",
+    title: "International Business Development | Project Management in IoT, AI and Robotics",
     organization: "",
-    imageSrc: swpa,
+    imageSrc: mino,
     social: {
-      linkedin: "https://www.linkedin.com/in/swarajpande5/?originalSubdomain=in",
-      github: "https://github.com/swarajpande5/"
+      // linkedin: "https://www.linkedin.com/in/mikhailnovoselov/",
+      github: "https://github.com/mikhailnov"
     },
     featured: true,
     track: "oosc",
   },
-   {
+  {
     id: "jiyu",
     name: "Jiongchi Yu",
     title: "PhD Student in CS @ SMU",
@@ -328,40 +340,53 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
-    id: "mino",
-    name: "Mikhail Novoselov",
-    title: "International Business Development | Project Management in IoT, AI and Robotics",
+    {
+    id: "vikr",
+    name: "Viswanath Kraleti",
+    title: "Linux Systems Engineer at Qualcomm || Yocto || Open Embedded",
     organization: "",
-    imageSrc: mino,
+    imageSrc: vikr,
     social: {
-      linkedin: "https://www.linkedin.com/in/mikhailnovoselov/",
-      github: "https://github.com/mikhailnov"
-    },
-    featured: true,
-    track: "oosc",
-  },
-  { 
-    id: "frst",
-    name: "Francis Frode Steen",
-    title: "Associate Professor at UCLA",
-    organization: "",
-    imageSrc: frst,
-    social: {
-      linkedin: "https://www.linkedin.com/in/ffsteen/",
+      linkedin: "https://www.linkedin.com/in/viswanathkraleti/?originalSubdomain=in",
+      github: "https://github.com/vkraleti"
     },
     featured: true,
     track: "oosc",
   },
   {
-    id: "matu",
-    name: "Mark Turner",
-    title: "Institute Professor at Case Western Reserve University",
+    id: "saak",
+    name: "Saquib Akhtar",
+    title: "Linux SME & IDM L3 Lead @ NOKIA",
     organization: "",
-    imageSrc: matu,
+    imageSrc: saak,
     social: {
-      linkedin: "https://www.linkedin.com/in/mark-turner-a583b/",
-      website: "https://markturner.org/"
+      linkedin: "https://www.linkedin.com/in/saquibakhtar/?originalSubdomain=in",
+      website: "https://wiki.debian.org/SaquibAkhtar"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "sapa",
+    name: "Saiyam Pathak",
+    title: "Head of Developer Relations, vCluster | Founder, Kubesimplify",
+    organization: "",
+    imageSrc: sapa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/saiyampathak/?originalSubdomain=in",
+      github: "https://github.com/saiyam1814?trk=public_post_reshare-text"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "pako",
+    name: "Pavan Kondeti",
+    title: "Linux kernel engineer at QUALCOMM",
+    organization: "",
+    imageSrc: pako,
+    social: {
+      linkedin: "https://www.linkedin.com/in/pavankumar-kondeti-33b2012/?originalSubdomain=in",
     },
     featured: true,
     track: "oosc",
@@ -381,7 +406,32 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+    {
+    id: "swpa",
+    name: "Swaraj Pande",
+    title: "Associate Software Engineer (L1) @ Red Hat • Red Hat Certified Engineer • Former Summer Research Intern @ IIT - Kharagpur",
+    organization: "",
+    imageSrc: swpa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/swarajpande5/?originalSubdomain=in",
+      github: "https://github.com/swarajpande5/"
+    },
+    featured: true,
+    track: "oosc",
+  },
+    {
+    id: "rapa",
+    name: "Rashmi Patankar",
+    title: "Project manager at FOSSEE, IIT Bombay",
+    organization: "",
+    imageSrc: rapa,
+    social: {
+      linkedin: "https://www.linkedin.com/in/rashmi-patankar-5b195098/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
     id: "aisi",
     name: "Aishvarya Sinha",
     title: "Senior Consultant at EY",
@@ -394,7 +444,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+  {
     id: "moim",
     name: "Mohammed Imaduddin",
     title: "GSoC'25 @The Linux Foundation | Vice-President COSC | Student at CBIT",
@@ -407,7 +457,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-   { 
+  {
     id: "aakh",
     name: "Aaryan Khandelwal",
     title: "SDE at Plane",
@@ -420,7 +470,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-    {
+  {
     id: "dide",
     name: "Diptangshu Dey",
     title: "SPASE'27 @ IITK | CSE'24 @ NIT Durgapur | FOSSEE '23 | Finalist @ IICC'22 | Front-end Developer",
@@ -433,7 +483,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+  {
     id: "papa",
     name: "Paritoshik Paul",
     title: "Technical Architect | Speaker | Drupal Enthusiast & X GSOC Mentor",
@@ -446,9 +496,9 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+  {
     id: "nida",
-    name: "Nikitha Dhanabal Vidushi",
+    name: "Nikitha Dhanabai",
     title: "Test Engineer Analyst",
     organization: "",
     imageSrc: nida,
@@ -458,7 +508,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-      {
+  {
     id: "haji",
     name: "Hardik Jindal",
     title: "OS Reaearch Fellow, Manifold Research || GSoC'24@C2SI || Coordinator@Programming Club IITK || EE'26@IITK",
@@ -471,7 +521,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-      {
+  {
     id: "akka",
     name: "Akarshan Kapoor",
     title: "GSoC '23 @ The Linux Foundation | Speaker @ Ubuntu Summit 2023 | Runner Up @ SIF Space Hackathon 2023 | Actively building in the Open Source Community | Growing up with AI",
@@ -517,7 +567,7 @@ export const speakers = [
     imageSrc: vapa,
     social: {
       linkedin: "https://www.linkedin.com/in/patilvarad/?originalSubdomain=in",
-      github:"https://github.com/OfficialVarad"
+      github: "https://github.com/OfficialVarad"
     },
     featured: true,
     track: "oosc",
@@ -561,7 +611,7 @@ export const speakers = [
     featured: true,
     track: "oosc",
   },
-  { 
+  {
     id: "laba",
     name: "Lakshay Bandlish",
     title: "Senior SWE @ Google | IIT Kanpur CSE",
@@ -596,6 +646,45 @@ export const speakers = [
     social: {
       linkedin: "https://www.linkedin.com/in/divy-srivastava-032939150/?originalSubdomain=in",
       github: "https://github.com/littledivy"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "vish",
+    name: "Vidushi Sharma",
+    title: "",
+    organization: "",
+    imageSrc: vish,
+    social: {
+      linkedin: "",
+      github: ""
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "ansh",
+    name: "Anmol Sharma",
+    title: "Bitcoin Engineer @Bold | Fix the money, fix the world!!",
+    organization: "",
+    imageSrc: ansh,
+    social: {
+      linkedin: "https://www.linkedin.com/in/theanmolsharma/?originalSubdomain=in",
+      github: "https://github.com/theanmolsharma"
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "saya",
+    name: "Sanskar Yaduka",
+    title: "GSoC'25 @ LinuxFoundation | OOSC'25 @ Overall Coordinator | Team Head @ Aerial Robotics IITK | Mechanical Engineering",
+    organization: "",
+    imageSrc: saya,
+    social: {
+      linkedin: "https://www.linkedin.com/in/sanskar-yaduka-6aa154254/?originalSubdomain=in",
+      github: "https://github.com/Sanskary2303"
     },
     featured: true,
     track: "oosc",

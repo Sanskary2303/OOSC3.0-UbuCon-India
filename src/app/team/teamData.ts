@@ -12,8 +12,13 @@ import divyaman from './images/Front_pic.jpg';
 import himanshu from './images/himanshudugar.jpg';
 import sanjay from './images/Sanjay_Khara_E&W.jpg';
 import devansh from './images/devansh.jpg';
-import sanskar from './images/sanskar.jpeg'
-import adithya from './images/Adithya_y22.jpg'
+import sanskar from './images/sanskar.jpeg';
+import adithya from './images/Adithya_y22.jpg';
+import neeraj from './images/neeraj_kajala.jpg';
+import ansh from './images/ansh.jpg';
+import dhruv from './images/Dhruv.jpg';
+
+
 export const teamData=[
   {
     "category": "Organisers",
@@ -31,14 +36,16 @@ export const teamData=[
   {
     "category": "Events and Workshop",
     "members": [
-      { "name": "Sanjay Khara", "phone": "" ,image:sanjay,"linkedin":"https://www.linkedin.com/in/sanjay-khara-340abb2a0/"}
+      { "name": "Sanjay Khara", "phone": "" ,image:sanjay,"linkedin":"https://www.linkedin.com/in/sanjay-khara-340abb2a0/"},
+      { "name": "Ansh", "phone": "" ,image:ansh,"linkedin":""},
     ]
   },
   {
     "category": "Hospitality",
     "members": [
       { "name": "Vishap Raj","email" : "vishapraj22@iitk.ac.in","phone": "+91 80812 30518" ,image:VishapRaj,"linkedin":"https://www.linkedin.com/in/vishap-raj-28166a255/"},
-      { "name": "Lingala Adithya","email" : "ladithya22@iitk.ac.in","phone": "+91 63035 97366" ,image:adithya,"linkedin":"https://www.linkedin.com/in/lingala-adithya/"}
+      { "name": "Lingala Adithya","email" : "ladithya22@iitk.ac.in","phone": "+91 63035 97366" ,image:adithya,"linkedin":"https://www.linkedin.com/in/lingala-adithya/"},
+      { "name": "Dhruv","email" : "","phone": "" ,image:dhruv, "linkedin":"https://www.linkedin.com/in/dhruv-kumar-8381a42a4/"},
     ]
   },
   {
@@ -69,7 +76,8 @@ export const teamData=[
   {
     "category": "Media and Publicity",
     "members": [
-      { "name": "Vaishnavi", "phone": "" ,image:Vaishnavi,"linkedin":"https://www.linkedin.com/in/b-vaishnavi-42b9b9320/"}
+      { "name": "Vaishnavi", "phone": "" ,image:Vaishnavi,"linkedin":"https://www.linkedin.com/in/b-vaishnavi-42b9b9320/"},
+      {"name":"Neeraj Kajala", "phone":"", image:neeraj, "linkedin":"https://www.linkedin.com/in/neeraj-kajala-a4085928b/?originalSubdomain=in"}
     ]
   },
   {

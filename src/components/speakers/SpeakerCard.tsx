@@ -43,7 +43,7 @@ export default function SpeakerCard({
         <Image
           src={imageSrc}
           alt={name}
-          className="w-full h-[350px] object-cover object-top"
+          className="object-cover object-center w-full aspect-[4/4]"
         />
       </div>
 

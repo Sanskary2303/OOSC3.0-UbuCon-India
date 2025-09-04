@@ -46,6 +46,7 @@ import vikr from './images/Viswanath_Kraleti.jpeg';
 import saak from './images/saquib_akhtar.png';
 import sapa from './images/Saiyam_pathak.jpeg';
 import pako from './images/Pavan_Kondeti.jpeg';
+import abhi from './images/abhishek.jpg';
 
 export const speakers = [
   {
@@ -221,6 +222,18 @@ export const speakers = [
     track: "oosc",
   },
   {
+    id: "pako",
+    name: "Pavan Kondeti",
+    title: "Linux kernel engineer at QUALCOMM",
+    organization: "",
+    imageSrc: pako,
+    social: {
+      linkedin: "https://www.linkedin.com/in/pavankumar-kondeti-33b2012/?originalSubdomain=in",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
     id: "utbh",
     name: "Utkarsh Bhatt",
     title: "Cloud Storage Engineer, Polyglot programmer",
@@ -380,18 +393,6 @@ export const speakers = [
     track: "oosc",
   },
   {
-    id: "pako",
-    name: "Pavan Kondeti",
-    title: "Linux kernel engineer at QUALCOMM",
-    organization: "",
-    imageSrc: pako,
-    social: {
-      linkedin: "https://www.linkedin.com/in/pavankumar-kondeti-33b2012/?originalSubdomain=in",
-    },
-    featured: true,
-    track: "oosc",
-  },
-  {
     id: "wano",
     name: "Wajoud Noorani",
     title: "Data Scientist",
@@ -427,6 +428,18 @@ export const speakers = [
     imageSrc: rapa,
     social: {
       linkedin: "https://www.linkedin.com/in/rashmi-patankar-5b195098/",
+    },
+    featured: true,
+    track: "oosc",
+  },
+  {
+    id: "abhi",
+    name: "Abhishek Kumar",
+    title: "LFX Mentee @ CNCF KubeEdge",
+    organization: "",
+    imageSrc: abhi,
+    social: {
+      linkedin: "https://www.linkedin.com/in/abhishek-kumar-170492258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     featured: true,
     track: "oosc",

@@ -385,7 +385,7 @@ export default function CalendarPage() {
     {
       id: "sat-18",
       title: "FOSS technologies: a technological trend",
-      description: "By Morsal Haro",
+      description: "By Manuel Haro",
       startTime: new Date("2025-09-06T16:50:00"),
       endTime: new Date("2025-09-06T17:30:00"),
       room: "LH-18",

@@ -225,7 +225,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter & Aveek Basu",
       startTime: new Date("2025-09-05T10:30:00"),
       endTime: new Date("2025-09-05T10:50:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -234,7 +234,7 @@ export default function CalendarPage() {
       description: "Aveek Basu",
       startTime: new Date("2025-09-05T10:50:00"),
       endTime: new Date("2025-09-05T11:30:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -243,7 +243,7 @@ export default function CalendarPage() {
       description: "Francis Steen, Mark Turner",
       startTime: new Date("2025-09-05T10:50:00"),
       endTime: new Date("2025-09-05T11:10:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     {
@@ -252,7 +252,7 @@ export default function CalendarPage() {
       description: "Abhishek Kumar",
       startTime: new Date("2025-09-05T11:10:00"),
       endTime: new Date("2025-09-05T11:30:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -261,7 +261,7 @@ export default function CalendarPage() {
       description: "Neeraj Poddar, Saiyam Patha",
       startTime: new Date("2025-09-05T11:30:00"),
       endTime: new Date("2025-09-05T12:10:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -270,7 +270,7 @@ export default function CalendarPage() {
       description: "Hardik Jindal",
       startTime: new Date("2025-09-05T11:30:00"),
       endTime: new Date("2025-09-05T12:10:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -279,7 +279,7 @@ export default function CalendarPage() {
       description: "Mikhail Novosyolov",
       startTime: new Date("2025-09-05T12:10:00"),
       endTime: new Date("2025-09-05T12:50:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -288,7 +288,7 @@ export default function CalendarPage() {
       description: "Alexander Pevzner",
       startTime: new Date("2025-09-05T12:10:00"),
       endTime: new Date("2025-09-05T12:50:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -297,7 +297,7 @@ export default function CalendarPage() {
       description: "Mohammed Imaduddin",
       startTime: new Date("2025-09-05T12:50:00"),
       endTime: new Date("2025-09-05T13:30:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -306,7 +306,7 @@ export default function CalendarPage() {
       description: "Bhavanishankar Ravindra",
       startTime: new Date("2025-09-05T12:50:00"),
       endTime: new Date("2025-09-05T13:30:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -315,7 +315,7 @@ export default function CalendarPage() {
       description: "Lunch will be provided for all attendees.",
       startTime: new Date("2025-09-05T13:30:00"),
       endTime: new Date("2025-09-05T15:00:00"),
-      room: "Main Hall",
+      room: "",
     },
     {
       id: "fri-12",
@@ -323,7 +323,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter",
       startTime: new Date("2025-09-05T15:00:00"),
       endTime: new Date("2025-09-05T15:40:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -332,7 +332,7 @@ export default function CalendarPage() {
       description: "Divy Srivastava",
       startTime: new Date("2025-09-05T15:20:00"),
       endTime: new Date("2025-09-05T15:40:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     {
@@ -341,7 +341,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter",
       startTime: new Date("2025-09-05T15:40:00"),
       endTime: new Date("2025-09-05T16:00:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -350,7 +350,7 @@ export default function CalendarPage() {
       description: "Akash Sankaranarayanan, Nikitha Dhanabal",
       startTime: new Date("2025-09-05T15:40:00"),
       endTime: new Date("2025-09-05T16:00:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -359,7 +359,7 @@ export default function CalendarPage() {
       description: "Abhishek Kumar",
       startTime: new Date("2025-09-05T16:05:00"),
       endTime: new Date("2025-09-05T16:45:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -368,7 +368,7 @@ export default function CalendarPage() {
       description: "Yash Mishra",
       startTime: new Date("2025-09-05T16:05:00"),
       endTime: new Date("2025-09-05T16:25:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -377,7 +377,7 @@ export default function CalendarPage() {
       description: "Mohammed Imaduddin",
       startTime: new Date("2025-09-05T16:00:00"),
       endTime: new Date("2025-09-05T17:30:00"),
-      room: "Room 3",
+      room: "lecture hall 13",
       mode: "In Person",
     },
     {
@@ -386,7 +386,7 @@ export default function CalendarPage() {
       description: "Aveek Basu, Till Kamppeter",
       startTime: new Date("2025-09-05T16:50:00"),
       endTime: new Date("2025-09-05T17:30:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -395,7 +395,7 @@ export default function CalendarPage() {
       description: "Jiongchi Yu",
       startTime: new Date("2025-09-05T16:50:00"),
       endTime: new Date("2025-09-05T17:30:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -404,7 +404,7 @@ export default function CalendarPage() {
       description: "Enjoy a refreshing coffee break.",
       startTime: new Date("2025-09-05T17:30:00"),
       endTime: new Date("2025-09-05T17:45:00"),
-      room: "Main Hall",
+      room: "",
     },
     {
       id: "fri-22",
@@ -412,7 +412,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter",
       startTime: new Date("2025-09-05T17:45:00"),
       endTime: new Date("2025-09-05T18:25:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -421,7 +421,7 @@ export default function CalendarPage() {
       description: "Shuah Khan",
       startTime: new Date("2025-09-05T17:45:00"),
       endTime: new Date("2025-09-05T18:05:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     {
@@ -430,7 +430,7 @@ export default function CalendarPage() {
       description: "Shuah Khan",
       startTime: new Date("2025-09-05T18:05:00"),
       endTime: new Date("2025-09-05T18:25:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     {
@@ -439,7 +439,7 @@ export default function CalendarPage() {
       description: "Utkarsh Bhatt",
       startTime: new Date("2025-09-05T17:45:00"),
       endTime: new Date("2025-09-05T19:15:00"),
-      room: "Room 3",
+      room: "lecture hall 13",
       mode: "In Person",
     },
     {
@@ -448,7 +448,7 @@ export default function CalendarPage() {
       description: "Jayanth Tatineni, Aishwarya Sinha, Sumanto Kar, Varad Patil, Shanthi Priya, Kannan M. Moudgalya",
       startTime: new Date("2025-09-05T18:30:00"),
       endTime: new Date("2025-09-05T18:50:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -457,7 +457,7 @@ export default function CalendarPage() {
       description: "Manvith Kumar",
       startTime: new Date("2025-09-05T18:50:00"),
       endTime: new Date("2025-09-05T19:00:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -466,7 +466,7 @@ export default function CalendarPage() {
       description: "Saquib Akhtar",
       startTime: new Date("2025-09-05T19:00:00"),
       endTime: new Date("2025-09-05T19:10:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -475,7 +475,7 @@ export default function CalendarPage() {
       description: "Manuel Haro",
       startTime: new Date("2025-09-05T18:30:00"),
       endTime: new Date("2025-09-05T19:10:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     // Day 2: Saturday, 6th September 2025
@@ -485,7 +485,7 @@ export default function CalendarPage() {
       description: "Adlair Cerecedo-Mendez",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T11:40:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -494,7 +494,7 @@ export default function CalendarPage() {
       description: "Ayush Ghai",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T11:40:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -503,7 +503,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter",
       startTime: new Date("2025-09-06T11:00:00"),
       endTime: new Date("2025-09-06T12:30:00"),
-      room: "Room 3",
+      room: "lecture hall 13",
       mode: "In Person",
     },
     {
@@ -512,7 +512,7 @@ export default function CalendarPage() {
       description: "Aditya Bhattacharya, Rudra Mani Upadhyay, Myo Thinzar Kyaw, Sumanto Kar, Varad Patil, Shanthi Priya, Kannan M. Moudgalya",
       startTime: new Date("2025-09-06T11:25:00"),
       endTime: new Date("2025-09-06T11:45:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -521,7 +521,7 @@ export default function CalendarPage() {
       description: "Paritoshik Paul",
       startTime: new Date("2025-09-06T11:45:00"),
       endTime: new Date("2025-09-06T12:25:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -530,7 +530,7 @@ export default function CalendarPage() {
       description: "Yuning Liang",
       startTime: new Date("2025-09-06T11:45:00"),
       endTime: new Date("2025-09-06T12:05:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -539,7 +539,7 @@ export default function CalendarPage() {
         description: "Akarshan Kapoor",
         startTime: new Date("2025-09-06T12:10:00"),
         endTime: new Date("2025-09-06T12:50:00"),
-        room: "Room 2",
+        room: "lecture hall 12",
         mode: "In Person",
     },
     {
@@ -548,7 +548,7 @@ export default function CalendarPage() {
       description: "Neeraj Poddar",
       startTime: new Date("2025-09-06T12:30:00"),
       endTime: new Date("2025-09-06T12:50:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -557,7 +557,7 @@ export default function CalendarPage() {
       description: "Abelardo Valdez Poot",
       startTime: new Date("2025-09-06T12:55:00"),
       endTime: new Date("2025-09-06T13:35:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -566,7 +566,7 @@ export default function CalendarPage() {
       description: "Ayush Ghai",
       startTime: new Date("2025-09-06T12:35:00"),
       endTime: new Date("2025-09-06T14:05:00"),
-      room: "Room 3",
+      room: "lecture hall 13",
       mode: "In Person",
     },
     {
@@ -575,7 +575,7 @@ export default function CalendarPage() {
       description: "Lunch will be provided for all attendees.",
       startTime: new Date("2025-09-06T13:35:00"),
       endTime: new Date("2025-09-06T15:00:00"),
-      room: "Main Hall",
+      room: "",
     },
     {
       id: "sat-12",
@@ -583,7 +583,7 @@ export default function CalendarPage() {
       description: "Oliver Völckers",
       startTime: new Date("2025-09-06T15:00:00"),
       endTime: new Date("2025-09-06T15:40:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "Remote",
     },
     {
@@ -592,7 +592,7 @@ export default function CalendarPage() {
       description: "Anmol Sharma",
       startTime: new Date("2025-09-06T15:00:00"),
       endTime: new Date("2025-09-06T15:40:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -601,7 +601,7 @@ export default function CalendarPage() {
         description: "Akarshan Kapoor",
         startTime: new Date("2025-09-06T15:30:00"),
         endTime: new Date("2025-09-06T17:00:00"),
-        room: "Room 3",
+        room: "lecture hall 13",
         mode: "In Person",
     },
     {
@@ -610,7 +610,7 @@ export default function CalendarPage() {
       description: "Lakshay Bandlish",
       startTime: new Date("2025-09-06T15:40:00"),
       endTime: new Date("2025-09-06T16:00:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -619,7 +619,7 @@ export default function CalendarPage() {
       description: "Siddharth Bhat",
       startTime: new Date("2025-09-06T15:40:00"),
       endTime: new Date("2025-09-06T16:00:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "Remote",
     },
     {
@@ -628,7 +628,7 @@ export default function CalendarPage() {
       description: "Vidushi Sharma",
       startTime: new Date("2025-09-06T16:05:00"),
       endTime: new Date("2025-09-06T16:45:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
     {
@@ -637,7 +637,7 @@ export default function CalendarPage() {
       description: "Manuel Haro",
       startTime: new Date("2025-09-06T16:50:00"),
       endTime: new Date("2025-09-06T17:30:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "Remote",
     },
     {
@@ -646,7 +646,7 @@ export default function CalendarPage() {
       description: "Aaryan Khandelwal",
       startTime: new Date("2025-09-06T16:50:00"),
       endTime: new Date("2025-09-06T17:10:00"),
-      room: "Room 2",
+      room: "lecture hall 12",
       mode: "In Person",
     },
     {
@@ -655,7 +655,7 @@ export default function CalendarPage() {
         description: "Sanskar Yaduka",
         startTime: new Date("2025-09-06T17:00:00"),
         endTime: new Date("2025-09-06T17:40:00"),
-        room: "Room 3",
+        room: "lecture hall 13",
         mode: "In Person",
     },
     {
@@ -664,7 +664,7 @@ export default function CalendarPage() {
         description: "Diptangshu Dey",
         startTime: new Date("2025-09-06T17:10:00"),
         endTime: new Date("2025-09-06T17:30:00"),
-        room: "Room 2",
+        room: "lecture hall 12",
         mode: "In Person",
     },
     {
@@ -673,7 +673,7 @@ export default function CalendarPage() {
         description: "Priyam Chakraborty, Suman Chakraborty",
         startTime: new Date("2025-09-06T17:30:00"),
         endTime: new Date("2025-09-06T17:40:00"),
-        room: "Room 2",
+        room: "lecture hall 12",
         mode: "In Person"
     },
     {
@@ -682,7 +682,7 @@ export default function CalendarPage() {
       description: "A short break before the final session.",
       startTime: new Date("2025-09-06T17:40:00"),
       endTime: new Date("2025-09-06T18:00:00"),
-      room: "Main Hall",
+      room: "",
     },
     {
       id: "sat-24",
@@ -690,7 +690,7 @@ export default function CalendarPage() {
       description: "Till Kamppeter & Aveek Basu",
       startTime: new Date("2025-09-06T18:00:00"),
       endTime: new Date("2025-09-06T18:20:00"),
-      room: "Room 1",
+      room: "Lecture hall 18",
       mode: "In Person",
     },
   ];

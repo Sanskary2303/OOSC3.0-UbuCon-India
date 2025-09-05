@@ -12,33 +12,50 @@ const formatTime = (date: Date) => {
   });
 };
 
-// A sub-component for individual event cards to keep the code clean
-const EventCard = ({ event, isOngoing, isNextUp }: { event: Event, isOngoing: boolean, isNextUp: boolean }) => {
+// A single, unified component for all event cards
+const EventCard = ({ 
+  event, 
+  isOngoing, 
+  isNextUp, 
+  isPast 
+}: { 
+  event: Event, 
+  isOngoing: boolean, 
+  isNextUp: boolean, 
+  isPast?: boolean
+}) => {
   const status = isOngoing ? 'Ongoing' : isNextUp ? 'Next Up' : null;
   
-  // Define styles based on the status
-  const statusStyles = isOngoing 
-    ? "bg-red-500 border-red-500" 
-    : isNextUp 
-    ? "bg-orange-500 border-orange-500" 
-    : "border-gray-100";
+  // UPDATED: Added border colors for Ongoing/Next Up and increased border width
+  const containerStyles = [
+    "relative bg-white rounded-xl shadow-md p-6 border-2 flex flex-col transition-all duration-300", // Using border-2 for visibility
+    isOngoing ? "border-red-500" :                 // Red border for Ongoing
+    isNextUp ? "border-orange-500" :               // Orange border for Next Up
+    isPast ? "bg-gray-50 border-gray-100 opacity-70" :
+    "border-gray-100 hover:shadow-lg"             // Default for upcoming
+  ].join(" ");
 
-  const statusTextColor = isOngoing || isNextUp ? "text-white" : "text-orange-600";
+  const timeTextColor = isPast ? "text-gray-500" : "text-orange-600";
+  const titleTextColor = isPast ? "text-gray-700" : "text-gray-800";
+  const descriptionTextColor = "text-gray-600";
+  const detailsTextColor = "text-gray-500";
+
+  // Badge colors remain the same
   const statusBadgeColor = isOngoing ? "bg-red-100 text-red-700" : "bg-orange-100 text-orange-700";
 
   return (
-    <div className={`relative bg-white rounded-xl shadow-md p-6 border hover:shadow-lg flex flex-col transition-all duration-300 ${statusStyles}`}>
+    <div className={containerStyles}>
       {status && (
         <div className={`absolute top-3 right-3 text-xs font-bold px-2 py-1 rounded ${statusBadgeColor}`}>
           {status}
         </div>
       )}
-      <p className={`text-sm font-semibold ${statusTextColor}`}>
+      <p className={`text-sm font-semibold ${timeTextColor}`}>
         {formatTime(event.startTime)} – {formatTime(event.endTime)}
       </p>
-      <h3 className="text-lg font-bold text-gray-800 mt-2 pr-16">{event.title}</h3>
-      <p className="text-gray-600 mt-1 flex-grow">{event.description}</p>
-      <div className="flex items-center gap-4 mt-3 text-sm text-gray-500">
+      <h3 className={`text-lg font-bold mt-2 pr-16 ${titleTextColor}`}>{event.title}</h3>
+      <p className={`mt-1 flex-grow ${descriptionTextColor}`}>{event.description}</p>
+      <div className={`flex items-center gap-4 mt-3 text-sm ${detailsTextColor}`}>
         {event.room && (
           <span className="flex items-center gap-1.5">
             <MapPin size={14} />
@@ -80,7 +97,6 @@ const EventSchedule: React.FC<{ events: Event[] }> = ({ events }) => {
     const ongoing = sorted.filter(e => now >= e.startTime && now < e.endTime);
     const past = sorted.filter(e => e.endTime < now);
     
-    // Events for the main view are ones that are not yet over
     const futureOrOngoing = sorted.filter(e => e.endTime >= now);
 
     const upcomingForNextUpCheck = sorted.filter(e => e.startTime > now);
@@ -115,7 +131,6 @@ const EventSchedule: React.FC<{ events: Event[] }> = ({ events }) => {
 
   return (
     <div className="space-y-12">
-      {/* Tabs for Upcoming and Past Events */}
       <div>
         <div className="flex gap-4 border-b pb-2">
           <button
@@ -149,6 +164,7 @@ const EventSchedule: React.FC<{ events: Event[] }> = ({ events }) => {
                           event={event}
                           isOngoing={ongoingEventIds.has(event.id)}
                           isNextUp={nextUpEventIds.has(event.id)}
+                          isPast={false}
                         />
                       ))}
                     </div>
@@ -164,27 +180,13 @@ const EventSchedule: React.FC<{ events: Event[] }> = ({ events }) => {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {pastEvents.length > 0 ? (
                 pastEvents.map((event) => (
-                  <div key={event.id} className="bg-gray-50 rounded-xl shadow-md p-6 border border-gray-100 flex flex-col opacity-70">
-                    <p className="text-sm font-semibold text-gray-500">
-                      {formatTime(event.startTime)} – {formatTime(event.endTime)}
-                    </p>
-                    <h4 className="text-lg font-bold text-gray-700 mt-2">{event.title}</h4>
-                    <p className="text-gray-500 mt-1 flex-grow">{event.description}</p>
-                    <div className="flex items-center gap-4 mt-3 text-sm text-gray-500">
-                      {event.room && (
-                        <span className="flex items-center gap-1.5">
-                          <MapPin size={14} />
-                          {event.room}
-                        </span>
-                      )}
-                      {event.mode && (
-                        <span className="flex items-center gap-1.5">
-                          {event.mode === 'In Person' ? <User size={14} /> : <Video size={14} />}
-                          {event.mode}
-                        </span>
-                      )}
-                    </div>
-                  </div>
+                  <EventCard
+                    key={event.id}
+                    event={event}
+                    isOngoing={false}
+                    isNextUp={false}
+                    isPast={true}
+                  />
                 ))
               ) : (
                 <p className="text-gray-500 italic">No past events yet.</p>
@@ -198,5 +200,3 @@ const EventSchedule: React.FC<{ events: Event[] }> = ({ events }) => {
 };
 
 export default EventSchedule;
-
-
